@@ -3,9 +3,9 @@ from __future__ import annotations
 from functools import reduce
 import operator
 
-from ccre_rulekit.config import NamespaceConfig
-from ccre_rulekit.dates import parse_relative_current_date
-from ccre_rulekit.model import Predicate, RulePlan, RuleReference
+from cre_rulekit.config import NamespaceConfig
+from cre_rulekit.dates import parse_relative_current_date
+from cre_rulekit.model import Predicate, RulePlan, RuleReference
 
 
 def _col_name(namespace: str, field: str) -> str:

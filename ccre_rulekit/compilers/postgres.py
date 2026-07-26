@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from ccre_rulekit.compilers.base_sql import BaseSqlCompiler
-from ccre_rulekit.dates import parse_relative_current_date
+from cre_rulekit.compilers.base_sql import BaseSqlCompiler
+from cre_rulekit.dates import parse_relative_current_date
 
 
 class PostgresCompiler(BaseSqlCompiler):

@@ -1,5 +1,5 @@
 import pandas as pd
-from ccre_rulekit import RuleCompiler
+from cre_rulekit import RuleCompiler
 
 namespace_config_df = pd.DataFrame([
     {"namespace": "moneyMovementEnriched", "table_name": "money_movement_enriched", "primary_keys": ["mid"], "mid_column": "mid"},

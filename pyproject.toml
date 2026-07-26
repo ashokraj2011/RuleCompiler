@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ccre-rulekit"
+name = "cre-rulekit"
 version = "0.1.0"
 description = "Compile CCRE rule JSON into an intermediate rule plan and multiple execution targets."
 readme = "README.md"
@@ -19,4 +19,4 @@ dev = ["pytest>=7.0"]
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["ccre_rulekit*"]
+include = ["cre_rulekit*"]

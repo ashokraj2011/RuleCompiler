@@ -1,5 +1,5 @@
 import pandas as pd
-from ccre_rulekit import RuleCompiler
+from cre_rulekit import RuleCompiler
 
 
 def namespace_config():

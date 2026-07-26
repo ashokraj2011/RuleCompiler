@@ -4,9 +4,9 @@ import re
 from functools import reduce
 from textwrap import indent
 
-from ccre_rulekit.config import NamespaceConfig
-from ccre_rulekit.dates import parse_relative_current_date
-from ccre_rulekit.model import Predicate, RulePlan, RuleReference
+from cre_rulekit.config import NamespaceConfig
+from cre_rulekit.dates import parse_relative_current_date
+from cre_rulekit.model import Predicate, RulePlan, RuleReference
 
 
 _IDENTIFIER_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")

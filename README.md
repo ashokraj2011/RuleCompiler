@@ -1,4 +1,4 @@
-# ccre-rulekit
+# cre-rulekit
 
 Small compiler-style library for CCRE rules.
 
@@ -18,7 +18,7 @@ pip install -e .
 
 ```python
 import pandas as pd
-from ccre_rulekit import RuleCompiler
+from cre_rulekit import RuleCompiler
 
 namespace_config_df = pd.DataFrame([
     {
