@@ -1,0 +1,10 @@
+{
+  "type": "manual",
+  "id": "WRK-19",
+  "key": null,
+  "url": null,
+  "title": "Coner to sql server",
+  "description": "Coner to sql server standard sqls",
+  "desiredOutcome": "",
+  "acceptanceCriteria": "manual checks"
+}

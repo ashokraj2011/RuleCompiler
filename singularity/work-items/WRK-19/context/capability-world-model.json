@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "capabilityId": "rule-compiler",
+  "capabilityPath": [
+    "rule-compiler"
+  ],
+  "capabilityMapSha256": "33b1b220f05759f456a37eb54d83cf8619569b63d32e06b9528247c86a3dbfc3",
+  "requiredViews": [
+    "business",
+    "architecture",
+    "development",
+    "testing",
+    "security",
+    "release"
+  ],
+  "maxBytes": 262144,
+  "bytes": 0,
+  "repositories": [
+    {
+      "id": "rulecompiler",
+      "status": "local-grounding"
+    }
+  ],
+  "files": [],
+  "warnings": [],
+  "recordedAt": "2026-08-17T23:59:03.024Z"
+}
