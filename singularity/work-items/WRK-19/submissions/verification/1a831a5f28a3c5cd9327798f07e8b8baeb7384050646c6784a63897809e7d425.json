@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-19",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "WRK-19",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "WRK-19",
+  "submittedBranch": "WRK-19",
+  "submissionCommit": "3d1414a1663ceb2b3a9f6116edb09ce686e5b83d",
+  "sourceCommit": "3d1414a1663ceb2b3a9f6116edb09ce686e5b83d",
+  "sourceTreeSha256": "sha256:f8a3d37e59538d65fe2050fca43815cd31137e36f7d7b21ef0a911434bafc487",
+  "phase": "verification",
+  "generation": 1,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "governed-agent",
+    "channel": "copilot-host",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "architect"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "source": {
+      "kind": "in-place",
+      "filename": "test-evidence.md",
+      "mediaType": "text/markdown",
+      "sha256": "b6ec0e46ab6e085e7ed669c8a9cc1259df6d5a05470717b4cb1f51fc408a768e",
+      "bytes": 83969
+    },
+    "generation": 1,
+    "publishedAt": "2026-08-18T01:09:59.883Z"
+  },
+  "artifacts": [
+    {
+      "path": "cre_rulekit.egg-info/dependency_links.txt",
+      "kind": "document",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "path": "cre_rulekit.egg-info/PKG-INFO",
+      "kind": "file",
+      "sha256": "1cff9d7b5bc3b156aea8b9e9ee181f5b7510065391650e4b1e6e69f6c14b062a",
+      "size": 1376
+    },
+    {
+      "path": "cre_rulekit.egg-info/requires.txt",
+      "kind": "document",
+      "sha256": "6a4fe4de644de3a4e8387ec133b3e9158065deac13b6076f6ccb1adf9a2b5cb8",
+      "size": 53
+    },
+    {
+      "path": "cre_rulekit.egg-info/SOURCES.txt",
+      "kind": "document",
+      "sha256": "27f65df0a0b67d077cb7fee52b6e6a0a0e9e53c0d1df0496b61a8694d254601b",
+      "size": 609
+    },
+    {
+      "path": "cre_rulekit.egg-info/top_level.txt",
+      "kind": "document",
+      "sha256": "36636245d6c7915b1961f1a6c82f57cc142f579efecf99c1135b21935cf7dc3b",
+      "size": 12
+    },
+    {
+      "path": "singularity/work-items/WRK-19/artifacts/verification/test-evidence.md",
+      "kind": "document",
+      "sha256": "1a84139f359629413a2446feb1679dfb139d73550b62ec5af89f0d7ba6ba2b8f",
+      "size": 87037,
+      "reference": {
+        "handle": "sfref:v1:story:WRK-19:da367cb41f8678638842e7d6fcb2139f58e1c4d5887627f8d032e3288727165a",
+        "recordHash": "da367cb41f8678638842e7d6fcb2139f58e1c4d5887627f8d032e3288727165a"
+      }
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:WRK-19:da367cb41f8678638842e7d6fcb2139f58e1c4d5887627f8d032e3288727165a",
+      "recordHash": "da367cb41f8678638842e7d6fcb2139f58e1c4d5887627f8d032e3288727165a",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "checks": [],
+  "usage": [
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-08-18T01:09:59.883Z",
+      "completedAt": "2026-08-18T01:09:59.883Z",
+      "agent": "architect",
+      "generation": 1
+    }
+  ],
+  "approvals": [],
+  "visualAssurance": null,
+  "submittedAt": "2026-08-18T01:16:47.785Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "1a831a5f28a3c5cd9327798f07e8b8baeb7384050646c6784a63897809e7d425"
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "kind": "work-reconciliation",
+  "workId": "WRK-19",
+  "workType": "spec-driven-standard",
+  "intervalId": "INT-verification-G1-002",
+  "phaseId": "verification",
+  "generation": 1,
+  "baselineSha256": "1c5105089dfc507bac3c549fd2a7b31d9220ff7d790d150309812d9ae1efa130",
+  "baseline": {
+    "path": "singularity/work-items/WRK-19/context/work-intervals/verification-gen1-baseline.json",
+    "sha256": "1c5105089dfc507bac3c549fd2a7b31d9220ff7d790d150309812d9ae1efa130",
+    "verified": true,
+    "sourceBaseCommit": "525350326ff8795aa7d955be59982ca07d0f9a24"
+  },
+  "sourceBaseCommit": "525350326ff8795aa7d955be59982ca07d0f9a24",
+  "target": {
+    "branch": "WRK-19",
+    "head": "3d1414a1663ceb2b3a9f6116edb09ce686e5b83d",
+    "includesWorktree": false,
+    "cleanApplicationTree": true,
+    "uncommittedApplicationPaths": []
+  },
+  "findings": [
+    {
+      "path": "cre_rulekit.egg-info/PKG-INFO",
+      "status": "present",
+      "sha256": "1cff9d7b5bc3b156aea8b9e9ee181f5b7510065391650e4b1e6e69f6c14b062a",
+      "bytes": 1376,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "cre_rulekit.egg-info/SOURCES.txt",
+      "status": "present",
+      "sha256": "27f65df0a0b67d077cb7fee52b6e6a0a0e9e53c0d1df0496b61a8694d254601b",
+      "bytes": 609,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "cre_rulekit.egg-info/dependency_links.txt",
+      "status": "present",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "cre_rulekit.egg-info/requires.txt",
+      "status": "present",
+      "sha256": "6a4fe4de644de3a4e8387ec133b3e9158065deac13b6076f6ccb1adf9a2b5cb8",
+      "bytes": 53,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "cre_rulekit.egg-info/top_level.txt",
+      "status": "present",
+      "sha256": "36636245d6c7915b1961f1a6c82f57cc142f579efecf99c1135b21935cf7dc3b",
+      "bytes": 12,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    }
+  ],
+  "summary": {
+    "changedPaths": 5,
+    "planned": 0,
+    "unplanned": 5,
+    "protected": 0
+  },
+  "decision": {
+    "status": "review",
+    "summaryStatus": "attention",
+    "eligibleForSubmission": true,
+    "reasons": [],
+    "escalationTarget": null
+  },
+  "reconciliationSha256": "e8adc89cfd4a7947cc8d2c3392495d74ab1bdeefd75e12f00e446a0060c0e03a",
+  "reconciledAt": "2026-08-18T01:16:47.784Z",
+  "final": true,
+  "recordedAt": "2026-08-18T01:16:47.785Z",
+  "path": "singularity/work-items/WRK-19/context/work-intervals/reconciliations/e8adc89cfd4a7947cc8d2c3392495d74ab1bdeefd75e12f00e446a0060c0e03a.json"
+}

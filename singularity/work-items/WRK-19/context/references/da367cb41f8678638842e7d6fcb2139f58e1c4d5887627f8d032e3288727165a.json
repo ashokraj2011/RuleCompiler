@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/WRK-19/artifacts/verification/test-evidence.md",
+    "phaseId": "verification"
+  },
+  "createdAt": "2026-08-18T01:16:47.830Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "rulecompiler",
+    "origin": "https://github.com/ashokraj2011/RuleCompiler.git"
+  },
+  "revision": {
+    "bytes": 87037,
+    "commitSha": "3d1414a1663ceb2b3a9f6116edb09ce686e5b83d",
+    "sha256": "1a84139f359629413a2446feb1679dfb139d73550b62ec5af89f0d7ba6ba2b8f"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-19",
+    "id": "WRK-19",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
