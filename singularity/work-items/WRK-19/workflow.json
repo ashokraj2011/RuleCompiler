@@ -1863,17 +1863,127 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 0,
-      "generatedBy": null,
+      "generation": 1,
+      "generatedBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
       "generatedAgent": null,
-      "authorship": [],
+      "authorship": [
+        {
+          "schemaVersion": 1,
+          "producer": "human",
+          "channel": "manual-in-place",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "product-owner"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "source": {
+            "kind": "in-place",
+            "filename": "plan.md",
+            "mediaType": "text/markdown",
+            "sha256": "2421f1a6fb5e7672c8e4684aa377283fba14c8ebc3b9ccf7dc3b897a6f060a9e",
+            "bytes": 15030
+          },
+          "generation": 1,
+          "publishedAt": "2026-08-18T00:10:58.189Z"
+        }
+      ],
       "usage": [],
-      "telemetry": [],
+      "telemetry": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/WRK-19/telemetry/planning-gen1.json",
+          "sha256": "168d777ab982405115599f7d3903ba143a40afddbef2ff06f81f7f3a9fc994aa",
+          "status": "not-invoked",
+          "models": [],
+          "providerCost": null
+        }
+      ],
       "approvals": [],
       "designSourceSets": [],
-      "artifacts": [],
+      "artifacts": [
+        {
+          "path": "singularity/work-items/WRK-19/artifacts/planning/plan.md",
+          "kind": "document",
+          "status": "pending",
+          "exists": true,
+          "size": 17552,
+          "sha256": "a48e3bc48077fc3030a5a4903113ebe00a3e8e338367dc770701511322135bf3",
+          "registeredAt": "2026-08-18T00:10:58.067Z",
+          "updatedAt": "2026-08-18T00:10:58.223Z"
+        }
+      ],
       "checks": [],
-      "remoteOutputs": []
+      "remoteOutputs": [],
+      "inputContext": {
+        "generation": 1,
+        "path": "singularity/work-items/WRK-19/context/inputs-planning-gen1.json",
+        "sha256": "3e799a136298f4aa375c43d77177d65dca8a5fd3a9aa0d9f356a75af1a27d559",
+        "renderedSha256": "00c7944fcd3d4ec0455191ef076e1a0324ea191000148e2bef6ad9e98aa11cea",
+        "mode": "enforce"
+      },
+      "sidecars": [
+        {
+          "path": "singularity/work-items/WRK-19/context/sidecars/planning-gen1-singularity-work-items-WRK-19-artifacts-planning-plan.md.json",
+          "artifact": "singularity/work-items/WRK-19/artifacts/planning/plan.md",
+          "integritySha256": "47b249cbbfa4f1636c9376bd5b15afa950cb53552d49da0a7aed53fe9205aabb"
+        }
+      ],
+      "sourceCommit": "9ae4f9010231e8d080e9b007aec26628966d6fbb",
+      "artifactSet": {
+        "schemaVersion": 1,
+        "resultType": "artifact-set-catalog",
+        "setId": "spec-driven-planning",
+        "primary": "singularity/work-items/WRK-19/artifacts/planning/plan.md",
+        "members": [
+          {
+            "path": "singularity/work-items/WRK-19/artifacts/planning/plan.md",
+            "member": "plan.md",
+            "role": "implementation-plan",
+            "required": true,
+            "authority": "governed",
+            "directory": false,
+            "exists": true,
+            "sha256": "a48e3bc48077fc3030a5a4903113ebe00a3e8e338367dc770701511322135bf3",
+            "bytes": 17552,
+            "files": null
+          },
+          {
+            "path": "singularity/work-items/WRK-19/artifacts/planning/tasks.md",
+            "member": "tasks.md",
+            "role": "advisory-task-map",
+            "required": false,
+            "authority": "advisory",
+            "directory": false,
+            "exists": false,
+            "sha256": null,
+            "bytes": null,
+            "files": null
+          }
+        ],
+        "bundleSha256": "87c0cfb928c01ebe7ba2c24003fcc3bb6d91acc39221c66d2881317fc373369f",
+        "missingRequired": [],
+        "generation": 1,
+        "preserved": [],
+        "changed": []
+      }
     },
     "implementation": {
       "id": "implementation",
@@ -2302,6 +2412,14 @@
       "event": "phase_self_approved",
       "phase": "specification",
       "detail": "threshold reached; advanced to planning"
+    },
+    {
+      "at": "2026-08-18T00:10:58.224Z",
+      "actor": "ashokraj2011",
+      "agent": "product-owner",
+      "event": "phase_generated",
+      "phase": "planning",
+      "detail": "generation 1"
     }
   ],
   "measurement": {
@@ -2600,6 +2718,77 @@
           "templateSha256": "aa4c5c86467f07303011fde5981b819f330528435b7ce141466285cf15afdd94"
         },
         "createdAt": "2026-08-18T00:07:17.293Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "d08e4698-f384-44ea-8170-178622aa8944",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "WRK-19",
+          "branch": "WRK-19"
+        },
+        "phaseId": "planning",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-08-18T00:10:58.084Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "d08e4698-f384-44ea-8170-178622aa8944",
+        "eventType": "artifact-generated",
+        "capabilityId": "rule-compiler",
+        "subject": {
+          "branch": "WRK-19",
+          "generation": 1,
+          "phase": "planning",
+          "workId": "WRK-19",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "33b1b220f05759f456a37eb54d83cf8619569b63d32e06b9528247c86a3dbfc3",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "1935137921d0b0b1118cfe1277c1624c8c234b350586c81e5f3ac0cf0c6052f9",
+          "lifecycleEventId": "d08e4698-f384-44ea-8170-178622aa8944",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "303b6402e8c2c925c3507ce1eafe95bb08a69d097509cb6f8a0b5e3bee1db23f"
+        },
+        "createdAt": "2026-08-18T00:10:58.088Z"
       }
     }
   ],
