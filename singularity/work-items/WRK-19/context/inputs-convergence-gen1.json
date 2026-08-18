@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-19",
+  "workType": "spec-driven-standard",
+  "phase": "convergence",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-08-18T01:03:48.147Z",
+  "renderedSha256": "c064f90eb833a66453f2dfd08394c49620356fed08e37fee8b395ef3026b0148",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-08-18T00:07:17.278Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "e54c8a6d9c9a394473686513d50f43d8f06519bbad22ca1086a88524eb3e368e",
+      "sha256": "e54c8a6d9c9a394473686513d50f43d8f06519bbad22ca1086a88524eb3e368e",
+      "bytes": 10256,
+      "injectedBytes": 10256,
+      "truncated": false
+    },
+    {
+      "phase": "planning",
+      "path": "artifacts/planning/plan.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-08-18T00:13:48.316Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "17d548cca4f697cef158da2ef3e4bb4590aacca708bc6fbbb8da8a084bd947ea",
+      "sha256": "17d548cca4f697cef158da2ef3e4bb4590aacca708bc6fbbb8da8a084bd947ea",
+      "bytes": 19213,
+      "injectedBytes": 19211,
+      "truncated": false
+    },
+    {
+      "phase": "implementation",
+      "path": "artifacts/implementation/implementation-summary.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-08-18T00:41:57.086Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "b4e5283f7726bad6805b5f833078c57fecee07bf372cb06bb061602d3a649632",
+      "sha256": "b4e5283f7726bad6805b5f833078c57fecee07bf372cb06bb061602d3a649632",
+      "bytes": 51016,
+      "injectedBytes": 51014,
+      "truncated": false
+    }
+  ]
+}

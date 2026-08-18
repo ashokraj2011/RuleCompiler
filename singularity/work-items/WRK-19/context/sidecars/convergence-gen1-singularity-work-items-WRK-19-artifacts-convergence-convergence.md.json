@@ -1,0 +1,51 @@
+{
+  "artifact": {
+    "bytes": 83222,
+    "path": "singularity/work-items/WRK-19/artifacts/convergence/convergence.md",
+    "role": "document",
+    "sha256": "ecbdae1d7a466193344fd687c430a42c73e87a1692db675357d58397e2650197"
+  },
+  "configuration": {
+    "revision": "753718b6342cebac99acb9be11df6244dd3d3965",
+    "sha256": "1935137921d0b0b1118cfe1277c1624c8c234b350586c81e5f3ac0cf0c6052f9"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/implementation/implementation-summary.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/planning/plan.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "bfe260d1a380d32b940a5b3c3ee5b236b870ca46fecd2c8d193c0a13ba841e71",
+  "phase": "convergence",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": null,
+    "kind": "deterministic"
+  },
+  "publication": {
+    "branch": "WRK-19",
+    "commit": null,
+    "publishedAt": "2026-08-18T01:03:48.203Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-19",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/spec-driven/convergence.md",
+    "sha256": "6901106457eec3b69da7bf60f290529079b7c9dfa4cb59db780ec5406920a832"
+  }
+}

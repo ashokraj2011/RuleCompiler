@@ -3803,17 +3803,90 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 0,
-      "generatedBy": null,
+      "generation": 1,
+      "generatedBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
       "generatedAgent": null,
-      "authorship": [],
+      "authorship": [
+        {
+          "schemaVersion": 1,
+          "producer": "deterministic",
+          "channel": "kernel-generator",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "developer"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "source": {
+            "kind": "in-place",
+            "filename": "convergence.md",
+            "mediaType": "text/markdown",
+            "sha256": "8f39b60b2e470cf248c588804e5e5a8caa970fcd40b482bea1b90c9462852ae4",
+            "bytes": 81621
+          },
+          "generation": 1,
+          "publishedAt": "2026-08-18T01:03:48.203Z"
+        }
+      ],
       "usage": [],
-      "telemetry": [],
+      "telemetry": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/WRK-19/telemetry/convergence-gen1.json",
+          "sha256": "ec195ff98f9a849f0b2f3f1ce1f70afe08bceb1ab3ae51ca7c549526f9cd8b06",
+          "status": "not-invoked",
+          "models": [],
+          "providerCost": null
+        }
+      ],
       "approvals": [],
       "designSourceSets": [],
-      "artifacts": [],
+      "artifacts": [
+        {
+          "path": "singularity/work-items/WRK-19/artifacts/convergence/convergence.md",
+          "kind": "document",
+          "status": "pending",
+          "exists": true,
+          "size": 84171,
+          "sha256": "dce8337b0e4e5ae246e9ecc5dc3176fc591aa09f83c94961e42e5de6ba8250ac",
+          "registeredAt": "2026-08-18T01:03:47.850Z",
+          "updatedAt": "2026-08-18T01:03:48.286Z"
+        }
+      ],
       "checks": [],
-      "remoteOutputs": []
+      "remoteOutputs": [],
+      "inputContext": {
+        "generation": 1,
+        "path": "singularity/work-items/WRK-19/context/inputs-convergence-gen1.json",
+        "sha256": "45f95a0160bb371e027c626d4feb01445d9be5702ab6b678ebef3a9774a997e2",
+        "renderedSha256": "c064f90eb833a66453f2dfd08394c49620356fed08e37fee8b395ef3026b0148",
+        "mode": "enforce"
+      },
+      "sidecars": [
+        {
+          "path": "singularity/work-items/WRK-19/context/sidecars/convergence-gen1-singularity-work-items-WRK-19-artifacts-convergence-convergence.md.json",
+          "artifact": "singularity/work-items/WRK-19/artifacts/convergence/convergence.md",
+          "integritySha256": "bfe260d1a380d32b940a5b3c3ee5b236b870ca46fecd2c8d193c0a13ba841e71"
+        }
+      ],
+      "sourceCommit": "1b7371fe740ad9f49f0830b8e16c136b5aa9ec9f"
     },
     "verification": {
       "id": "verification",
@@ -4130,6 +4203,14 @@
       "event": "phase_self_approved",
       "phase": "implementation",
       "detail": "threshold reached; advanced to convergence"
+    },
+    {
+      "at": "2026-08-18T01:03:48.293Z",
+      "actor": "ashokraj2011",
+      "agent": "developer",
+      "event": "phase_generated",
+      "phase": "convergence",
+      "detail": "generation 1"
     }
   ],
   "measurement": {
@@ -4854,6 +4935,77 @@
           "templateSha256": "5d0478b18c8fd14221e14c68e6238b909bccd6802a70262c416005354716c62c"
         },
         "createdAt": "2026-08-18T00:41:57.099Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "6a7a1308-5bdc-42d3-99a3-1f97f5174545",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "WRK-19",
+          "branch": "WRK-19"
+        },
+        "phaseId": "convergence",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-08-18T01:03:47.885Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "6a7a1308-5bdc-42d3-99a3-1f97f5174545",
+        "eventType": "artifact-generated",
+        "capabilityId": "rule-compiler",
+        "subject": {
+          "branch": "WRK-19",
+          "generation": 1,
+          "phase": "convergence",
+          "workId": "WRK-19",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "33b1b220f05759f456a37eb54d83cf8619569b63d32e06b9528247c86a3dbfc3",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "1935137921d0b0b1118cfe1277c1624c8c234b350586c81e5f3ac0cf0c6052f9",
+          "lifecycleEventId": "6a7a1308-5bdc-42d3-99a3-1f97f5174545",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "6901106457eec3b69da7bf60f290529079b7c9dfa4cb59db780ec5406920a832"
+        },
+        "createdAt": "2026-08-18T01:03:47.896Z"
       }
     }
   ],
