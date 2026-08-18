@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "mode": "deterministic-light",
+  "title": "rulecompiler",
+  "repository": {
+    "commit": "f64145299a08e1e65f1b1e7bec4bb9aad89acc93",
+    "branch": "WRK-19"
+  },
+  "counts": {
+    "files": 84,
+    "source": 30,
+    "tests": 3,
+    "manifests": 1,
+    "deployment": 0
+  },
+  "languages": {
+    "Python": 30
+  },
+  "topDirectories": {
+    "cre_rulekit": 40,
+    "ccre_rulekit": 27,
+    ".idea": 5,
+    "cre_rulekit.egg-info": 5,
+    "(root)": 3,
+    "tests": 3,
+    "examples": 1
+  },
+  "packages": [],
+  "commands": []
+}
