@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-19",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "WRK-19",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "WRK-19",
+  "submittedBranch": "WRK-19",
+  "submissionCommit": "90c8a0baffaa9facd439ca985e0763cccd415b67",
+  "sourceCommit": "90c8a0baffaa9facd439ca985e0763cccd415b67",
+  "sourceTreeSha256": "sha256:af6468cfcf971f7a9cf679ac0f8c122a51cda074475c4f309c33134a46e67a2c",
+  "phase": "convergence",
+  "generation": 1,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "deterministic",
+    "channel": "kernel-generator",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "developer"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "source": {
+      "kind": "in-place",
+      "filename": "convergence.md",
+      "mediaType": "text/markdown",
+      "sha256": "8f39b60b2e470cf248c588804e5e5a8caa970fcd40b482bea1b90c9462852ae4",
+      "bytes": 81621
+    },
+    "generation": 1,
+    "publishedAt": "2026-08-18T01:03:48.203Z"
+  },
+  "artifacts": [
+    {
+      "path": "singularity/work-items/WRK-19/artifacts/convergence/convergence.md",
+      "kind": "document",
+      "sha256": "dce8337b0e4e5ae246e9ecc5dc3176fc591aa09f83c94961e42e5de6ba8250ac",
+      "size": 84171,
+      "reference": {
+        "handle": "sfref:v1:story:WRK-19:d8f0f47fab036f553146cf879771a7a925c2009760bf7ce40ebe1edecc297cc9",
+        "recordHash": "d8f0f47fab036f553146cf879771a7a925c2009760bf7ce40ebe1edecc297cc9"
+      }
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:WRK-19:d8f0f47fab036f553146cf879771a7a925c2009760bf7ce40ebe1edecc297cc9",
+      "recordHash": "d8f0f47fab036f553146cf879771a7a925c2009760bf7ce40ebe1edecc297cc9",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "checks": [],
+  "usage": [],
+  "approvals": [],
+  "visualAssurance": null,
+  "submittedAt": "2026-08-18T01:04:14.206Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "ad03d4a1b96c43f8f7de7cb016cf4c1dab40854ebfaa73fa404d58fdb89f3f51"
+}

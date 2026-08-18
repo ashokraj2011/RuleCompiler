@@ -575,6 +575,95 @@
           },
           "status": "awaiting_review"
         }
+      },
+      {
+        "packetSha256": "ad03d4a1b96c43f8f7de7cb016cf4c1dab40854ebfaa73fa404d58fdb89f3f51",
+        "phase": "convergence",
+        "generation": 1,
+        "branch": "WRK-19",
+        "sourceTreeSha256": "sha256:af6468cfcf971f7a9cf679ac0f8c122a51cda074475c4f309c33134a46e67a2c",
+        "path": "singularity/work-items/WRK-19/submissions/convergence/ad03d4a1b96c43f8f7de7cb016cf4c1dab40854ebfaa73fa404d58fdb89f3f51.json",
+        "submittedAt": "2026-08-18T01:04:14.206Z",
+        "projection": {
+          "schemaVersion": 1,
+          "workId": "WRK-19",
+          "epicId": null,
+          "planId": null,
+          "jiraIssueId": "WRK-19",
+          "initialJiraKey": null,
+          "currentJiraKey": null,
+          "canonicalBranch": "WRK-19",
+          "submittedBranch": "WRK-19",
+          "submissionCommit": "90c8a0baffaa9facd439ca985e0763cccd415b67",
+          "sourceCommit": "90c8a0baffaa9facd439ca985e0763cccd415b67",
+          "sourceTreeSha256": "sha256:af6468cfcf971f7a9cf679ac0f8c122a51cda074475c4f309c33134a46e67a2c",
+          "phase": "convergence",
+          "generation": 1,
+          "authorship": {
+            "schemaVersion": 1,
+            "producer": "deterministic",
+            "channel": "kernel-generator",
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "governedAgentContext": {
+              "agentId": "developer"
+            },
+            "kernelModel": {
+              "invoked": false,
+              "status": "exact",
+              "invocationIds": []
+            },
+            "externalAiUse": {
+              "value": "unknown",
+              "status": "unavailable"
+            },
+            "source": {
+              "kind": "in-place",
+              "filename": "convergence.md",
+              "mediaType": "text/markdown",
+              "sha256": "8f39b60b2e470cf248c588804e5e5a8caa970fcd40b482bea1b90c9462852ae4",
+              "bytes": 81621
+            },
+            "generation": 1,
+            "publishedAt": "2026-08-18T01:03:48.203Z"
+          },
+          "artifacts": [
+            {
+              "path": "singularity/work-items/WRK-19/artifacts/convergence/convergence.md",
+              "kind": "document",
+              "sha256": "dce8337b0e4e5ae246e9ecc5dc3176fc591aa09f83c94961e42e5de6ba8250ac",
+              "size": 84171,
+              "reference": {
+                "handle": "sfref:v1:story:WRK-19:d8f0f47fab036f553146cf879771a7a925c2009760bf7ce40ebe1edecc297cc9",
+                "recordHash": "d8f0f47fab036f553146cf879771a7a925c2009760bf7ce40ebe1edecc297cc9"
+              }
+            }
+          ],
+          "references": [
+            {
+              "handle": "sfref:v1:story:WRK-19:d8f0f47fab036f553146cf879771a7a925c2009760bf7ce40ebe1edecc297cc9",
+              "recordHash": "d8f0f47fab036f553146cf879771a7a925c2009760bf7ce40ebe1edecc297cc9",
+              "purpose": "review-evidence",
+              "required": true
+            }
+          ],
+          "checks": [],
+          "usage": [],
+          "approvals": [],
+          "visualAssurance": null,
+          "submittedAt": "2026-08-18T01:04:14.206Z",
+          "submittedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "status": "awaiting_review"
+        }
       }
     ]
   },
@@ -3726,7 +3815,7 @@
       "label": "Convergence",
       "order": 3,
       "defaultAgent": "architect",
-      "status": "in_progress",
+      "status": "awaiting_approval",
       "requiredArtifact": {
         "path": "artifacts/convergence/convergence.md",
         "kind": "verification-report",
@@ -3797,7 +3886,7 @@
       },
       "qualityCommands": [],
       "startedAt": "2026-08-18T00:41:57.086Z",
-      "submittedAt": null,
+      "submittedAt": "2026-08-18T01:04:14.206Z",
       "approvedAt": null,
       "approvedBy": null,
       "rejectedAt": null,
@@ -3864,10 +3953,10 @@
           "kind": "document",
           "status": "pending",
           "exists": true,
-          "size": 84171,
-          "sha256": "dce8337b0e4e5ae246e9ecc5dc3176fc591aa09f83c94961e42e5de6ba8250ac",
+          "size": 84253,
+          "sha256": "8b528f2543908cecb2d7252b04b3afdbe3e1c515e3bdb4c520c3f6c859510d5b",
           "registeredAt": "2026-08-18T01:03:47.850Z",
-          "updatedAt": "2026-08-18T01:03:48.286Z"
+          "updatedAt": "2026-08-18T01:04:14.209Z"
         }
       ],
       "checks": [],
@@ -3886,7 +3975,10 @@
           "integritySha256": "bfe260d1a380d32b940a5b3c3ee5b236b870ca46fecd2c8d193c0a13ba841e71"
         }
       ],
-      "sourceCommit": "1b7371fe740ad9f49f0830b8e16c136b5aa9ec9f"
+      "sourceCommit": "1b7371fe740ad9f49f0830b8e16c136b5aa9ec9f",
+      "generationCommit": "90c8a0baffaa9facd439ca985e0763cccd415b67",
+      "publicationCommit": "90c8a0baffaa9facd439ca985e0763cccd415b67",
+      "validationVerdict": "passed"
     },
     "verification": {
       "id": "verification",
@@ -4211,6 +4303,14 @@
       "event": "phase_generated",
       "phase": "convergence",
       "detail": "generation 1"
+    },
+    {
+      "at": "2026-08-18T01:04:14.206Z",
+      "actor": "ashokraj2011",
+      "agent": "developer",
+      "event": "phase_submitted",
+      "phase": "convergence",
+      "detail": "1 artifacts"
     }
   ],
   "measurement": {
@@ -5006,6 +5106,77 @@
           "templateSha256": "6901106457eec3b69da7bf60f290529079b7c9dfa4cb59db780ec5406920a832"
         },
         "createdAt": "2026-08-18T01:03:47.896Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "db76907f-2fcf-42c7-b5aa-0948ab631099",
+        "type": "approval-requested",
+        "subject": {
+          "kind": "story",
+          "id": "WRK-19",
+          "branch": "WRK-19"
+        },
+        "phaseId": "convergence",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-08-18T01:04:13.638Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "db76907f-2fcf-42c7-b5aa-0948ab631099",
+        "eventType": "approval-requested",
+        "capabilityId": "rule-compiler",
+        "subject": {
+          "branch": "WRK-19",
+          "generation": 1,
+          "phase": "convergence",
+          "workId": "WRK-19",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "33b1b220f05759f456a37eb54d83cf8619569b63d32e06b9528247c86a3dbfc3",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "1935137921d0b0b1118cfe1277c1624c8c234b350586c81e5f3ac0cf0c6052f9",
+          "lifecycleEventId": "db76907f-2fcf-42c7-b5aa-0948ab631099",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "6901106457eec3b69da7bf60f290529079b7c9dfa4cb59db780ec5406920a832"
+        },
+        "createdAt": "2026-08-18T01:04:13.652Z"
       }
     }
   ],

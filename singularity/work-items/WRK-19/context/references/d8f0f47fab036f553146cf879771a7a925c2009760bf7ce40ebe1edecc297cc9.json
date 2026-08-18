@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/WRK-19/artifacts/convergence/convergence.md",
+    "phaseId": "convergence"
+  },
+  "createdAt": "2026-08-18T01:04:14.370Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "rulecompiler",
+    "origin": "https://github.com/ashokraj2011/RuleCompiler.git"
+  },
+  "revision": {
+    "bytes": 84171,
+    "commitSha": "90c8a0baffaa9facd439ca985e0763cccd415b67",
+    "sha256": "dce8337b0e4e5ae246e9ecc5dc3176fc591aa09f83c94961e42e5de6ba8250ac"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-19",
+    "id": "WRK-19",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
