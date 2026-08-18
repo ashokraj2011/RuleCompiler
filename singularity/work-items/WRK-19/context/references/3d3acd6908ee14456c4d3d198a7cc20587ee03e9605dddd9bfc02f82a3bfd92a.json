@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/WRK-19/artifacts/planning/plan.md",
+    "phaseId": "planning"
+  },
+  "createdAt": "2026-08-18T00:12:34.002Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "rulecompiler",
+    "origin": "https://github.com/ashokraj2011/RuleCompiler.git"
+  },
+  "revision": {
+    "bytes": 17552,
+    "commitSha": "5105edcdd9410b2dd5d64d66f3a2062ba01e350b",
+    "sha256": "a48e3bc48077fc3030a5a4903113ebe00a3e8e338367dc770701511322135bf3"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-19",
+    "id": "WRK-19",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
