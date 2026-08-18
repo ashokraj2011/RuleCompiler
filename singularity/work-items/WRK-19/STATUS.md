@@ -5,7 +5,7 @@
 - Capability: **ruleconverter** (`rule-compiler`)
 - Capability map: `33b1b220f05759f456a37eb54d83cf8619569b63d32e06b9528247c86a3dbfc3`
 - Overall status: **in_progress**
-- Current phase: **verification**
+- Current phase: **release**
 
 | # | Phase | Governed agent | Status | Generation | Approvals | Tokens |
 |---:|---|---|---|---:|---:|---:|
@@ -17,11 +17,14 @@
 |  | ⚠ self-approval | Ashok Raj via engineering-reviewers; agent developer | **warning** |  |  |  |
 | 4 | Convergence (`convergence`) | architect | **approved** | 1 | 1 | unavailable |
 |  | ⚠ self-approval | Ashok Raj via architecture-reviewers; agent architect | **warning** |  |  |  |
-| 5 | Verification (`verification`) | qa | **awaiting_approval** | 1 | 0 | unavailable |
-| 6 | Release (`release`) | qa | **not_started** | 0 | 0 | unavailable |
+| 5 | Verification (`verification`) | qa | **approved** | 1 | 1 | unavailable |
+|  | ⚠ self-approval | Ashok Raj via quality-reviewers; agent qa | **warning** |  |  |  |
+| 6 | Release (`release`) | qa | **in_progress** | 0 | 0 | unavailable |
 
 ## Recent history
 
+- 2026-08-18T01:19:48.588Z — **phase_self_approved** (verification) by ashokraj2011 · governed agent qa: threshold reached; advanced to release
+- 2026-08-18T01:19:48.588Z — **work_interval_closed** (verification) by ashokraj2011 · governed agent qa: interval INT-verification-G1-002 closed after phase approval
 - 2026-08-18T01:16:47.785Z — **phase_submitted** (verification) by ashokraj2011 · governed agent architect: 6 artifacts
 - 2026-08-18T01:16:47.785Z — **work_interval_reconciled** (verification) by system: review; 5 changed path(s)
 - 2026-08-18T01:09:59.922Z — **phase_generated** (verification) by ashokraj2011 · governed agent architect: generation 1
@@ -35,5 +38,3 @@
 - 2026-08-18T00:31:46.718Z — **work_interval_reconciled** (implementation) by system: review; 44 changed path(s)
 - 2026-08-18T00:31:29.178Z — **phase_generated** (implementation) by ashokraj2011 · governed agent architect: generation 1
 - 2026-08-18T00:13:48.373Z — **work_interval_started** (implementation) by system: baseline 761368e565fe at a7d220309188
-- 2026-08-18T00:13:48.316Z — **phase_self_approved** (planning) by ashokraj2011 · governed agent architect: threshold reached; advanced to implementation
-- 2026-08-18T00:12:33.964Z — **phase_submitted** (planning) by ashokraj2011 · governed agent product-owner: 1 artifacts

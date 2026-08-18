@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "phase": "verification",
+  "decisions": [
+    {
+      "decision": "approved",
+      "phase": "verification",
+      "at": "2026-08-18T01:19:48.588Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "qa",
+      "authorityGroup": "quality-reviewers",
+      "identityAssurance": "configured-local",
+      "channel": "terminal",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "cre_rulekit.egg-info/dependency_links.txt",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        {
+          "path": "cre_rulekit.egg-info/PKG-INFO",
+          "sha256": "1cff9d7b5bc3b156aea8b9e9ee181f5b7510065391650e4b1e6e69f6c14b062a"
+        },
+        {
+          "path": "cre_rulekit.egg-info/requires.txt",
+          "sha256": "6a4fe4de644de3a4e8387ec133b3e9158065deac13b6076f6ccb1adf9a2b5cb8"
+        },
+        {
+          "path": "cre_rulekit.egg-info/SOURCES.txt",
+          "sha256": "27f65df0a0b67d077cb7fee52b6e6a0a0e9e53c0d1df0496b61a8694d254601b"
+        },
+        {
+          "path": "cre_rulekit.egg-info/top_level.txt",
+          "sha256": "36636245d6c7915b1961f1a6c82f57cc142f579efecf99c1135b21935cf7dc3b"
+        },
+        {
+          "path": "singularity/work-items/WRK-19/artifacts/verification/test-evidence.md",
+          "sha256": "bb25a17378c59a59b690a38d3ffb678a0897df4775ca6383ef6b56bd8ed0e4a6"
+        }
+      ],
+      "reviewPacketSha256": "1a831a5f28a3c5cd9327798f07e8b8baeb7384050646c6784a63897809e7d425",
+      "selfApproval": true
+    }
+  ]
+}
