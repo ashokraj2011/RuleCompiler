@@ -1,0 +1,65 @@
+Metadata-Version: 2.4
+Name: cre-rulekit
+Version: 0.1.0
+Summary: Compile CCRE rule JSON into an intermediate rule plan and multiple execution targets.
+Author: CCRE
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=1.5
+Provides-Extra: spark
+Requires-Dist: pyspark>=3.4; extra == "spark"
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+
+# cre-rulekit
+
+Small compiler-style library for CCRE rules.
+
+Flow:
+
+```text
+Rule JSON -> RulePlan IR -> Postgres SQL / Spark SQL / PySpark DataFrame
+```
+
+## Install locally
+
+```bash
+pip install -e .
+```
+
+## Quick usage
+
+```python
+import pandas as pd
+from cre_rulekit import RuleCompiler
+
+namespace_config_df = pd.DataFrame([
+    {
+        "namespace": "moneyMovementEnriched",
+        "table_name": "money_movement_enriched",
+        "primary_keys": ["mid"],
+        "mid_column": "mid",
+    }
+])
+
+rule_json = {
+    "op": "all",
+    "terms": [
+        {
+            "comp": "greater than equal to",
+            "field": {
+                "name": "amount",
+                "namespace": "moneyMovementEnriched",
+                "datasource": "DB",
+                "evaluation_group": "1"
+            },
+            "value": "800"
+        }
+    ]
+}
+
+compiler = RuleCompiler(namespace_config_df)
+sql, params = compiler.to_postgres_sql(rule_json, mid_value="12345")
+print(sql)
+print(params)
+```

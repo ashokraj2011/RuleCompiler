@@ -1,0 +1,51 @@
+{
+  "artifact": {
+    "bytes": 1376,
+    "path": "cre_rulekit.egg-info/PKG-INFO",
+    "role": "file",
+    "sha256": "1cff9d7b5bc3b156aea8b9e9ee181f5b7510065391650e4b1e6e69f6c14b062a"
+  },
+  "configuration": {
+    "revision": "753718b6342cebac99acb9be11df6244dd3d3965",
+    "sha256": "1935137921d0b0b1118cfe1277c1624c8c234b350586c81e5f3ac0cf0c6052f9"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/implementation/implementation-summary.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/planning/plan.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "64a5a58b4ae2800f852ae17b8b6deadf526ddd9628bd6a14eb65186faa298fa0",
+  "phase": "verification",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "architect",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "WRK-19",
+    "commit": null,
+    "publishedAt": "2026-08-18T01:09:59.883Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-19",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/common/verification.md",
+    "sha256": "ced4ce8d532e509658558f5bf848bd6df1a03d6c278c84ed8512ac667095fd98"
+  }
+}

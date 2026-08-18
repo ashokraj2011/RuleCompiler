@@ -1,0 +1,7 @@
+pandas>=1.5
+
+[dev]
+pytest>=7.0
+
+[spark]
+pyspark>=3.4
