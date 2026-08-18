@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "bytes": 91335,
+    "path": "singularity/work-items/WRK-19/artifacts/release/conformance.md",
+    "role": "document",
+    "sha256": "6757473be72c3b9141268bee82a7c2b34cbaf7bc280a5731eb544447c8d2443f"
+  },
+  "configuration": {
+    "revision": "753718b6342cebac99acb9be11df6244dd3d3965",
+    "sha256": "1935137921d0b0b1118cfe1277c1624c8c234b350586c81e5f3ac0cf0c6052f9"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/verification/test-evidence.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "4fffee42443a43d20ff7810ea845555d8ec65edc6db7e934a21f2ac1ac31b264",
+  "phase": "release",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "qa",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "WRK-19",
+    "commit": null,
+    "publishedAt": "2026-08-18T01:29:59.176Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-19",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/spec-driven/release.md",
+    "sha256": "d79502d1b97d92cbd4527e548616a6d0154b8ef4083ed3d792b4f6c9ca9246a3"
+  }
+}

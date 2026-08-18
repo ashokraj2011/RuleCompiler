@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 2,
+  "workId": "WRK-19",
+  "phase": "release",
+  "generation": 1,
+  "agent": "qa",
+  "modelCommit": "eb357855e77eeed5376e59b111154eb7165d6f75",
+  "matchedRules": 0,
+  "mode": "append",
+  "applied": false,
+  "depth": "standard",
+  "evidence": false,
+  "requiredViews": [
+    "release"
+  ],
+  "requiredSelections": [
+    {
+      "kind": "core",
+      "tier": "brief",
+      "required": true
+    },
+    {
+      "kind": "view",
+      "view": "release",
+      "tier": "brief",
+      "required": true,
+      "origin": "phase"
+    }
+  ],
+  "task": "Finalize release for WRK-19",
+  "supportingEvidence": [],
+  "references": [
+    {
+      "handle": "sfref:v1:story:WRK-19:0c7a2ea375d47394f30a8032f29db05a4864e0455cc6b984f40360a3a751de3b",
+      "phase": "specification",
+      "path": "singularity/work-items/WRK-19/artifacts/specification/spec.md",
+      "rawSha256": "3ecb71d28260bb2e64eddb1c7553047b02e575f6cc36af4c8e11c6fa2b8432e4",
+      "rawBytes": 7886,
+      "previewSha256": "0c764ce02ae7c6fc8233f56c347a9a10db33966e43301468af9628c7fdeea09a",
+      "previewBytes": 8011,
+      "renderer": {
+        "id": "markdown-outline",
+        "version": 1
+      },
+      "truncated": false
+    },
+    {
+      "handle": "sfref:v1:story:WRK-19:3d3acd6908ee14456c4d3d198a7cc20587ee03e9605dddd9bfc02f82a3bfd92a",
+      "phase": "planning",
+      "path": "singularity/work-items/WRK-19/artifacts/planning/plan.md",
+      "rawSha256": "a48e3bc48077fc3030a5a4903113ebe00a3e8e338367dc770701511322135bf3",
+      "rawBytes": 17552,
+      "previewSha256": "6212b42d4d2b4d632805137492da9a82502d569374abf78e5780fb70472e31af",
+      "previewBytes": 16384,
+      "renderer": {
+        "id": "markdown-outline",
+        "version": 1
+      },
+      "truncated": true
+    },
+    {
+      "handle": "sfref:v1:story:WRK-19:9c89baeda2e97a38f8923669e2a48d5a093eb4c561bbdc73dc8a52a492880a3e",
+      "phase": "implementation",
+      "path": "singularity/work-items/WRK-19/artifacts/implementation/implementation-summary.md",
+      "rawSha256": "4496070b3ee016816f197110ee6e2799efb8921a112374be3ced337a92f4c046",
+      "rawBytes": 33939,
+      "previewSha256": "ef9c3302713f3efc33b9bf33d7a473231bbd67c5bc4fe23cd3e2a3d66904220f",
+      "previewBytes": 16384,
+      "renderer": {
+        "id": "markdown-outline",
+        "version": 1
+      },
+      "truncated": true
+    },
+    {
+      "handle": "sfref:v1:story:WRK-19:d8f0f47fab036f553146cf879771a7a925c2009760bf7ce40ebe1edecc297cc9",
+      "phase": "convergence",
+      "path": "singularity/work-items/WRK-19/artifacts/convergence/convergence.md",
+      "rawSha256": "dce8337b0e4e5ae246e9ecc5dc3176fc591aa09f83c94961e42e5de6ba8250ac",
+      "rawBytes": 84171,
+      "previewSha256": "a786eea7f8ee91e979d7d0e4ddbcdf5e4b6ed6eea7abf224b7d6b30ddaec541d",
+      "previewBytes": 16384,
+      "renderer": {
+        "id": "markdown-outline",
+        "version": 1
+      },
+      "truncated": true
+    },
+    {
+      "handle": "sfref:v1:story:WRK-19:da367cb41f8678638842e7d6fcb2139f58e1c4d5887627f8d032e3288727165a",
+      "phase": "verification",
+      "path": "singularity/work-items/WRK-19/artifacts/verification/test-evidence.md",
+      "rawSha256": "1a84139f359629413a2446feb1679dfb139d73550b62ec5af89f0d7ba6ba2b8f",
+      "rawBytes": 87037,
+      "previewSha256": "79e0c775bcd81df1459e2f4eb6c12aaaaf8048738e26e8d6efccaee571d653cd",
+      "previewBytes": 16384,
+      "renderer": {
+        "id": "markdown-outline",
+        "version": 1
+      },
+      "truncated": true
+    }
+  ],
+  "modelSourceTreeSha256": "sha256:dd7d1325e3b4ae8bc51ef8b7d431c2405cf6c8dccd3a883450af344102412295",
+  "composedSourceTreeSha256": "sha256:dd7d1325e3b4ae8bc51ef8b7d431c2405cf6c8dccd3a883450af344102412295",
+  "worldModelCommit": "eb357855e77eeed5376e59b111154eb7165d6f75",
+  "manifestSha256": "e034d5f745235825f2c908666cf957b9aada8a44ec94e4b04b5107c76e2d3c56",
+  "fresh": true,
+  "renderedSha256": "734ff981c43c007c0bce5fd696e3a7da7268e76eb55641357c329b9e36874d6e",
+  "promptPath": "singularity/work-items/WRK-19/context/prompts/release-gen1.md",
+  "files": [
+    {
+      "path": "singularity/world-model/core/summary.brief.md",
+      "sha256": "63aec0cbd340a295ad8e3dfd1889fb289305443f66b0e962e9ef5d34c7871612",
+      "bytes": 563,
+      "injectedBytes": 563,
+      "truncated": false,
+      "category": "required",
+      "level": 0,
+      "reason": "shared repository core (brief)",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": null,
+      "previewSha256": null,
+      "previewBytes": null,
+      "renderer": null
+    },
+    {
+      "path": "singularity/world-model/views/release.brief.md",
+      "sha256": "0a0313dd339b47f1f5996a74d2657b1507364194049ccfaec8b2ea582f6b826f",
+      "bytes": 192,
+      "injectedBytes": 192,
+      "truncated": false,
+      "category": "required",
+      "level": 1,
+      "reason": "release view: release (brief; phase)",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": null,
+      "previewSha256": null,
+      "previewBytes": null,
+      "renderer": null
+    },
+    {
+      "path": "singularity/world-model/task-guides/1189d8e1036d9206.md",
+      "sha256": "14f9fa09426197b1b78f83d05092093a395ec3e92e50366fad61535ea277d90c",
+      "bytes": 282,
+      "injectedBytes": 282,
+      "truncated": false,
+      "category": "required",
+      "level": 2,
+      "reason": "task guide: task-1189d8e1036d",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": null,
+      "previewSha256": null,
+      "previewBytes": null,
+      "renderer": null
+    },
+    {
+      "path": "singularity/world-model/evidence/evidence.jsonl",
+      "sha256": "3a3e316b8c5c807be62ef2dd1b31dc448de530f2dd2b5c37662b3ce366c6160a",
+      "bytes": 398,
+      "injectedBytes": 398,
+      "truncated": false,
+      "category": "required",
+      "level": 3,
+      "reason": "evidence ledger",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": null,
+      "previewSha256": null,
+      "previewBytes": null,
+      "renderer": null
+    },
+    {
+      "path": "singularity/work-items/WRK-19/artifacts/specification/spec.md",
+      "sha256": "3ecb71d28260bb2e64eddb1c7553047b02e575f6cc36af4c8e11c6fa2b8432e4",
+      "bytes": 7886,
+      "injectedBytes": 8011,
+      "truncated": false,
+      "category": "reference",
+      "level": null,
+      "reason": "specification:sfref:v1:story:WRK-19:0c7a2ea375d47394f30a8032f29db05a4864e0455cc6b984f40360a3a751de3b",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": "sfref:v1:story:WRK-19:0c7a2ea375d47394f30a8032f29db05a4864e0455cc6b984f40360a3a751de3b",
+      "previewSha256": "0c764ce02ae7c6fc8233f56c347a9a10db33966e43301468af9628c7fdeea09a",
+      "previewBytes": 8011,
+      "renderer": {
+        "id": "markdown-outline",
+        "version": 1
+      }
+    },
+    {
+      "path": "singularity/work-items/WRK-19/artifacts/planning/plan.md",
+      "sha256": "a48e3bc48077fc3030a5a4903113ebe00a3e8e338367dc770701511322135bf3",
+      "bytes": 17552,
+      "injectedBytes": 16384,
+      "truncated": true,
+      "category": "reference",
+      "level": null,
+      "reason": "planning:sfref:v1:story:WRK-19:3d3acd6908ee14456c4d3d198a7cc20587ee03e9605dddd9bfc02f82a3bfd92a",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": "sfref:v1:story:WRK-19:3d3acd6908ee14456c4d3d198a7cc20587ee03e9605dddd9bfc02f82a3bfd92a",
+      "previewSha256": "6212b42d4d2b4d632805137492da9a82502d569374abf78e5780fb70472e31af",
+      "previewBytes": 16384,
+      "renderer": {
+        "id": "markdown-outline",
+        "version": 1
+      }
+    },
+    {
+      "path": "singularity/work-items/WRK-19/artifacts/implementation/implementation-summary.md",
+      "sha256": "4496070b3ee016816f197110ee6e2799efb8921a112374be3ced337a92f4c046",
+      "bytes": 33939,
+      "injectedBytes": 16384,
+      "truncated": true,
+      "category": "reference",
+      "level": null,
+      "reason": "implementation:sfref:v1:story:WRK-19:9c89baeda2e97a38f8923669e2a48d5a093eb4c561bbdc73dc8a52a492880a3e",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": "sfref:v1:story:WRK-19:9c89baeda2e97a38f8923669e2a48d5a093eb4c561bbdc73dc8a52a492880a3e",
+      "previewSha256": "ef9c3302713f3efc33b9bf33d7a473231bbd67c5bc4fe23cd3e2a3d66904220f",
+      "previewBytes": 16384,
+      "renderer": {
+        "id": "markdown-outline",
+        "version": 1
+      }
+    },
+    {
+      "path": "singularity/work-items/WRK-19/artifacts/convergence/convergence.md",
+      "sha256": "dce8337b0e4e5ae246e9ecc5dc3176fc591aa09f83c94961e42e5de6ba8250ac",
+      "bytes": 84171,
+      "injectedBytes": 16384,
+      "truncated": true,
+      "category": "reference",
+      "level": null,
+      "reason": "convergence:sfref:v1:story:WRK-19:d8f0f47fab036f553146cf879771a7a925c2009760bf7ce40ebe1edecc297cc9",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": "sfref:v1:story:WRK-19:d8f0f47fab036f553146cf879771a7a925c2009760bf7ce40ebe1edecc297cc9",
+      "previewSha256": "a786eea7f8ee91e979d7d0e4ddbcdf5e4b6ed6eea7abf224b7d6b30ddaec541d",
+      "previewBytes": 16384,
+      "renderer": {
+        "id": "markdown-outline",
+        "version": 1
+      }
+    },
+    {
+      "path": "singularity/work-items/WRK-19/artifacts/verification/test-evidence.md",
+      "sha256": "1a84139f359629413a2446feb1679dfb139d73550b62ec5af89f0d7ba6ba2b8f",
+      "bytes": 87037,
+      "injectedBytes": 16384,
+      "truncated": true,
+      "category": "reference",
+      "level": null,
+      "reason": "verification:sfref:v1:story:WRK-19:da367cb41f8678638842e7d6fcb2139f58e1c4d5887627f8d032e3288727165a",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": "sfref:v1:story:WRK-19:da367cb41f8678638842e7d6fcb2139f58e1c4d5887627f8d032e3288727165a",
+      "previewSha256": "79e0c775bcd81df1459e2f4eb6c12aaaaf8048738e26e8d6efccaee571d653cd",
+      "previewBytes": 16384,
+      "renderer": {
+        "id": "markdown-outline",
+        "version": 1
+      }
+    }
+  ],
+  "injectedAt": "2026-08-18T01:29:48.869Z"
+}

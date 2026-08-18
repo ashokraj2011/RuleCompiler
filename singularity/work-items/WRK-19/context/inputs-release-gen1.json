@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-19",
+  "workType": "spec-driven-standard",
+  "phase": "release",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-08-18T01:29:59.015Z",
+  "renderedSha256": "09eaa0cd430d7c6d0053c647b048398b0d489e9dc038921b8f0a7654e53a652e",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "verification",
+      "path": "artifacts/verification/test-evidence.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-08-18T01:19:48.588Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "6b412990e7081f45e7fda130997381a05d2de95a47a1ef7a3e69a45dd52e18fc",
+      "sha256": "6b412990e7081f45e7fda130997381a05d2de95a47a1ef7a3e69a45dd52e18fc",
+      "bytes": 88755,
+      "injectedBytes": 88753,
+      "truncated": false
+    }
+  ]
+}
