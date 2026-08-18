@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/WRK-19/artifacts/implementation/implementation-summary.md",
+    "phaseId": "implementation"
+  },
+  "createdAt": "2026-08-18T00:31:46.792Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "rulecompiler",
+    "origin": "https://github.com/ashokraj2011/RuleCompiler.git"
+  },
+  "revision": {
+    "bytes": 33939,
+    "commitSha": "f84ff300bf51cb4ef4279222176328f11f9a5864",
+    "sha256": "4496070b3ee016816f197110ee6e2799efb8921a112374be3ced337a92f4c046"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-19",
+    "id": "WRK-19",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}

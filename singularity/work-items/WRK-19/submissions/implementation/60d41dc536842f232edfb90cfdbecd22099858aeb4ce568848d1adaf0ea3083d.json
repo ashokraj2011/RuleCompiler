@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-19",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "WRK-19",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "WRK-19",
+  "submittedBranch": "WRK-19",
+  "submissionCommit": "f84ff300bf51cb4ef4279222176328f11f9a5864",
+  "sourceCommit": "f84ff300bf51cb4ef4279222176328f11f9a5864",
+  "sourceTreeSha256": "sha256:af6468cfcf971f7a9cf679ac0f8c122a51cda074475c4f309c33134a46e67a2c",
+  "phase": "implementation",
+  "generation": 1,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "human",
+    "channel": "manual-in-place",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "architect"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "source": {
+      "kind": "in-place",
+      "filename": "implementation-summary.md",
+      "mediaType": "text/markdown",
+      "sha256": "43cfe4e42953c5131e09551f3a222cc5dfe98053b30792df428fe455b243a38d",
+      "bytes": 31380
+    },
+    "generation": 1,
+    "publishedAt": "2026-08-18T00:31:29.051Z"
+  },
+  "artifacts": [
+    {
+      "path": "ccre_rulekit/compiler.py",
+      "kind": "code",
+      "sha256": "05877c4831e41e4aafe9cf05fae51772863f1dc1f8c45b00a53c6f729a9f2ecf",
+      "size": 2291
+    },
+    {
+      "path": "ccre_rulekit/compilers/sqlserver.py",
+      "kind": "code",
+      "sha256": "330c2c7ef41c419aee13acfb40e6083f701faeb7ed440dd7138ab270cb3b5a53",
+      "size": 1760
+    },
+    {
+      "path": "cre_rulekit/__init__.py",
+      "kind": "code",
+      "sha256": "e9a5c1b69da4d6a21c98f7833c06b09e37a2875c860f3d14009b5ef190aa427d",
+      "size": 314
+    },
+    {
+      "path": "cre_rulekit/__pycache__/__init__.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "e3094c4ae90cf21ab4d8912eaaa437a051a9ebc796524a0fbd32d9afbc098b2b",
+      "size": 488
+    },
+    {
+      "path": "cre_rulekit/__pycache__/__init__.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "bb3027fa3f99465aaf3487fb8d404ff4aa42fe50a237b55c5fa2a867df65be78",
+      "size": 448
+    },
+    {
+      "path": "cre_rulekit/__pycache__/compiler.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "d685f5f3285dfdd2a73a2f803d1c6761c89efef131aabd2f5feb3f40517c16cc",
+      "size": 3152
+    },
+    {
+      "path": "cre_rulekit/__pycache__/compiler.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "1120f630a526cd53e4ba22a7b1b6b10794821e4e51480dd7c5a3e98cb1a598e0",
+      "size": 2697
+    },
+    {
+      "path": "cre_rulekit/__pycache__/config.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "4c6de9063bd1dbc93f16f3e177c92f57020b9b832b9762964e58994e702d8f81",
+      "size": 7911
+    },
+    {
+      "path": "cre_rulekit/__pycache__/config.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "07354f2fbb2e20a49e30b615b425ddced9574d5e096b51d7bca74edc776e8976",
+      "size": 8319
+    },
+    {
+      "path": "cre_rulekit/__pycache__/dates.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "f1a9b5c8848c41a7e367a6e4e7952d6c49ff1c9a910dba82bf7e3afc7340af43",
+      "size": 822
+    },
+    {
+      "path": "cre_rulekit/__pycache__/dates.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "252a74ddf209189cd306c1e7c7cd1dc06aac3dda282bbe3a77c1197b9489d694",
+      "size": 801
+    },
+    {
+      "path": "cre_rulekit/__pycache__/model.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "c4433e70823fce2ca0f39b5e339fa9ac4fe7ea53b75f392c9beecedfde8f3ba9",
+      "size": 2814
+    },
+    {
+      "path": "cre_rulekit/__pycache__/model.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "af363dbd76ec88db6e388563b10c437b9264ddd0582c499cfb8422233af1d89d",
+      "size": 2944
+    },
+    {
+      "path": "cre_rulekit/__pycache__/operators.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "de9789eca6d20df4d65c40da7e3aaeb86b6541f36ede6b91ad702d22bd3744f8",
+      "size": 2643
+    },
+    {
+      "path": "cre_rulekit/__pycache__/operators.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "c3487c782ebe074e76b06b7d23e795ffdae845cc2dca7c840f34eee664a74435",
+      "size": 2662
+    },
+    {
+      "path": "cre_rulekit/__pycache__/parser.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "f9cfba8cd59518cab9ca770fff4047a74709e0371b013b14f7eaf03b8b73812e",
+      "size": 4376
+    },
+    {
+      "path": "cre_rulekit/__pycache__/parser.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "a0e6c67f9cec27e2054873c43bf088184c31ea3e384b45058b51497f987f1bdc",
+      "size": 4388
+    },
+    {
+      "path": "cre_rulekit/__pycache__/resolver.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "5fd6ea16befe47644cbe93eb2960df7e9add89ee430d94196dd325d94c65dc7c",
+      "size": 1829
+    },
+    {
+      "path": "cre_rulekit/__pycache__/resolver.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "6a15e1a551d449eaf3ee3f990b28371acedffc2a08a509e727ef8d75d04f8183",
+      "size": 1884
+    },
+    {
+      "path": "cre_rulekit/compiler.py",
+      "kind": "code",
+      "sha256": "05877c4831e41e4aafe9cf05fae51772863f1dc1f8c45b00a53c6f729a9f2ecf",
+      "size": 2291
+    },
+    {
+      "path": "cre_rulekit/compilers/__init__.py",
+      "kind": "code",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "cre_rulekit/compilers/__pycache__/__init__.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "f97e5a419cec38a3262a600ed12ab3a63da1a0d0f4fefad4b9bca6d905e19296",
+      "size": 194
+    },
+    {
+      "path": "cre_rulekit/compilers/__pycache__/__init__.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "b2bab1b54029e32e5d130ba302ad14a7f24cff9b6f0e10ce972e522cdce178b1",
+      "size": 154
+    },
+    {
+      "path": "cre_rulekit/compilers/__pycache__/base_sql.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "29cde1bdfb6f89a2a12f07c2f17da0dcb3e7204b34c4b4cd59ae0729f3cad178",
+      "size": 15478
+    },
+    {
+      "path": "cre_rulekit/compilers/__pycache__/base_sql.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "4e3dc38625a8aa135de5fa2e5f986482bdf7a0cbc2a2d24650e791a00fd93f79",
+      "size": 15864
+    },
+    {
+      "path": "cre_rulekit/compilers/__pycache__/postgres.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "9a7e820bc6c6977bec2281fa08fdb42abfa018c23b15555c9fe7eb7345810c0b",
+      "size": 1041
+    },
+    {
+      "path": "cre_rulekit/compilers/__pycache__/postgres.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "3dcb5f50daa67ae140427378f86fa6ab848be2688421172dbd96291fc6ce8991",
+      "size": 1069
+    },
+    {
+      "path": "cre_rulekit/compilers/__pycache__/pyspark_df.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "dcbe8bba5c0e8d2490a56a0e955f6a161ad1b0fa304b0a3a71e33834e007e5e0",
+      "size": 13492
+    },
+    {
+      "path": "cre_rulekit/compilers/__pycache__/spark_sql.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "5c1612ec270f80c2e7cfc1c6a98e964a6ecd66f6d9748c3cb39a8ccb6c54a17e",
+      "size": 1504
+    },
+    {
+      "path": "cre_rulekit/compilers/__pycache__/spark_sql.cpython-313.pyc",
+      "kind": "file",
+      "sha256": "0f7ab75979072ea9717ab20b9cc4984a2a22733cac3daaa7f2d02acdaa086b58",
+      "size": 1536
+    },
+    {
+      "path": "cre_rulekit/compilers/__pycache__/sqlserver.cpython-312.pyc",
+      "kind": "file",
+      "sha256": "83faa3501d8452d34a40a36a52a08788fae88ab7c7fba5a98fb134e761ea6be6",
+      "size": 2417
+    },
+    {
+      "path": "cre_rulekit/compilers/base_sql.py",
+      "kind": "code",
+      "sha256": "812dfd9ce67461985ccf54169d2cbe6717a952244ff4b75df3560ca9c2bd71a6",
+      "size": 11129
+    },
+    {
+      "path": "cre_rulekit/compilers/postgres.py",
+      "kind": "code",
+      "sha256": "b957b92bd39ca76d4f7de07cceaf5af1d56dea2cdc6cba5fbbdb91e5c5e09603",
+      "size": 567
+    },
+    {
+      "path": "cre_rulekit/compilers/pyspark_df.py",
+      "kind": "code",
+      "sha256": "bcdf1dd5da3245dd64e381f376652223ca8facda0af30f84b6d9073d23f20592",
+      "size": 9611
+    },
+    {
+      "path": "cre_rulekit/compilers/spark_sql.py",
+      "kind": "code",
+      "sha256": "6e9eacee3fa67c53e28d3863498ef8ed038faddb1f3d04c7ae06e7caf692d925",
+      "size": 1054
+    },
+    {
+      "path": "cre_rulekit/compilers/sqlserver.py",
+      "kind": "code",
+      "sha256": "330c2c7ef41c419aee13acfb40e6083f701faeb7ed440dd7138ab270cb3b5a53",
+      "size": 1760
+    },
+    {
+      "path": "cre_rulekit/config.py",
+      "kind": "code",
+      "sha256": "9d56df718e392656adcaef3bae159cbe8d638cd5bed664d747d8f6e2b4dc5e52",
+      "size": 5218
+    },
+    {
+      "path": "cre_rulekit/dates.py",
+      "kind": "code",
+      "sha256": "4144f3c66d27f83ae6c23bbb1cb12285c542ea4c5314fbdb6041146d7247b1ad",
+      "size": 419
+    },
+    {
+      "path": "cre_rulekit/model.py",
+      "kind": "code",
+      "sha256": "7ffa7c5a9a52eb3f407f8a345216745400a0734619080193feb82c4d6c9aa8f0",
+      "size": 1404
+    },
+    {
+      "path": "cre_rulekit/operators.py",
+      "kind": "code",
+      "sha256": "6ed1c16dcc43b866c1f88e4457875b69aac8120560c877cc50e7b100c4445389",
+      "size": 1626
+    },
+    {
+      "path": "cre_rulekit/parser.py",
+      "kind": "code",
+      "sha256": "9a04f74c2cbef916cf7907c5cfa637a0b31db7d90f009ba7fa505f68180890bf",
+      "size": 3630
+    },
+    {
+      "path": "cre_rulekit/resolver.py",
+      "kind": "code",
+      "sha256": "c793909f11aa14ac31874c2a7a07cf824b73760af877d670afd18350da6b065a",
+      "size": 996
+    },
+    {
+      "path": "singularity/work-items/WRK-19/artifacts/implementation/implementation-summary.md",
+      "kind": "document",
+      "sha256": "4496070b3ee016816f197110ee6e2799efb8921a112374be3ced337a92f4c046",
+      "size": 33939,
+      "reference": {
+        "handle": "sfref:v1:story:WRK-19:9c89baeda2e97a38f8923669e2a48d5a093eb4c561bbdc73dc8a52a492880a3e",
+        "recordHash": "9c89baeda2e97a38f8923669e2a48d5a093eb4c561bbdc73dc8a52a492880a3e"
+      }
+    },
+    {
+      "path": "tests/__pycache__/test_basic.cpython-312-pytest-9.0.3.pyc",
+      "kind": "test",
+      "sha256": "141506f839c151a3b63eb94cdff57f687c2cec0d0ff27c09b1b48701442a75c0",
+      "size": 9618
+    },
+    {
+      "path": "tests/test_basic.py",
+      "kind": "test",
+      "sha256": "25fdf26c5df3b37b8f3025a1adc80ed5349a933e42537beeb69100a0359174a6",
+      "size": 3347
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:WRK-19:9c89baeda2e97a38f8923669e2a48d5a093eb4c561bbdc73dc8a52a492880a3e",
+      "recordHash": "9c89baeda2e97a38f8923669e2a48d5a093eb4c561bbdc73dc8a52a492880a3e",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "checks": [],
+  "usage": [],
+  "approvals": [],
+  "visualAssurance": null,
+  "submittedAt": "2026-08-18T00:31:46.719Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "60d41dc536842f232edfb90cfdbecd22099858aeb4ce568848d1adaf0ea3083d"
+}
