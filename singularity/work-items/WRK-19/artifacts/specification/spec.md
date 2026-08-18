@@ -4,27 +4,48 @@
   "workId": "WRK-19",
   "workType": "spec-driven-standard",
   "phase": "specification",
-  "generation": 0,
+  "generation": 1,
   "status": "in_progress",
-  "generatedBy": null,
+  "generatedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
   "generatedAgent": null,
   "authorship": {
     "schemaVersion": 1,
-    "producer": "legacy-unspecified",
-    "channel": "legacy",
-    "governedAgentContext": null,
+    "producer": "human",
+    "channel": "manual-in-place",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "product-owner"
+    },
     "kernelModel": {
       "invoked": false,
-      "status": "unavailable",
+      "status": "exact",
       "invocationIds": []
     },
     "externalAiUse": {
       "value": "unknown",
       "status": "unavailable"
     },
-    "source": null
+    "source": {
+      "kind": "in-place",
+      "filename": "spec.md",
+      "mediaType": "text/markdown",
+      "sha256": "607b8d81e6a472c380a99d4d3c0287264aadfffdfeaa17fdc43ead031813ee50",
+      "bytes": 5650
+    },
+    "generation": 1,
+    "publishedAt": "2026-08-18T00:04:07.763Z"
   },
-  "sourceCommit": null,
+  "sourceCommit": "cb3347ef18b45e6263995a519aabc0df3bba1845",
   "generationCommit": null,
   "publicationCommit": null,
   "configSha256": "1935137921d0b0b1118cfe1277c1624c8c234b350586c81e5f3ac0cf0c6052f9",
@@ -40,7 +61,16 @@
   },
   "remoteAgent": null,
   "clarification": null,
-  "telemetry": [],
+  "telemetry": [
+    {
+      "generation": 1,
+      "path": "singularity/work-items/WRK-19/telemetry/specification-gen1.json",
+      "sha256": "320ba813ac71f6d96f8d92c60c2d7a0660b9b7093ceb6c12c0449e03ee30febb",
+      "status": "not-invoked",
+      "models": [],
+      "providerCost": null
+    }
+  ],
   "remoteOutputs": [],
   "usage": [],
   "sequenceOverrides": [],
@@ -50,95 +80,91 @@
 }
 -->
 
-# Specification — {{WORK_ID}}
-
-<!--
-Scenarios come first, and general requirements come after them `[SPK:REQ-068]`. That ordering is the
-template's opinion: a requirement written before anyone has described the situation it serves tends
-to describe the system instead of the need, and nobody notices until verification.
-
-Where the current Story evidence leaves something material unknown, say so with a marker rather
-than guessing. Use this syntax:
-
-    [NEEDS CLARIFICATION: <one question grounded in the current Story evidence>]
-
-Replace the angle-bracketed placeholder; never copy or ask it as written. The question must be one
-non-empty line and must arise from the pinned sources, approved upstream artifacts, repository world
-model, or a contradiction among them. Markers are extracted the same way clauses are, so a marker
-inside fenced or inline code is ignored `[SPK:REQ-063]`. This phase blocks publication while any
-marker is unresolved, and a marker is only resolved when a later generation removes it *and* records
-the answer `[SPK:REQ-067]` — deleting the text alone is an integrity failure, not an answer.
--->
+# Specification — WRK-19
 
 ## Actors
 
-Who uses this, and what authority does each hold?
+- Rule compiler authors maintain the library behavior and dialect-specific output.
+- Application developers provide rule JSON and call the compiler for a SQL Server target.
+- Database operators run the generated SQL against a SQL Server instance.
+- QA validates that generated queries are deterministic, safe, and semantically equivalent to the original rule logic.
 
 ## User scenarios
 
-Prioritized. Each scenario leads with the situation, then its acceptance cases.
-
-### S1 — <the most important situation, in the user's words>
+### S1 — Compile a rule into SQL Server-compliant SQL
 
 **Priority:** P1
-**Actor:** <role>
-**Context:** <what is true before this begins>
+**Actor:** application developer
+**Context:** A rule JSON is ready and the target database is Microsoft SQL Server.
 
-- **Given** <the starting state>
-  **When** <the actor does this>
-  **Then** <the observable outcome>
+- **Given** a rule JSON that resolves to DB-backed fields and valid namespace metadata
+  **When** the developer invokes the SQL Server compilation path
+  **Then** the library returns a T-SQL query and parameter list that filter the target table set according to the original rule logic.
 
-- **Given** <a variation worth stating>
-  **When** <…>
-  **Then** <…>
+- **Given** a compound rule using multiple AND/OR clauses
+  **When** the rule is compiled
+  **Then** the generated predicate preserves the logical grouping and evaluation order defined by the rule input.
 
-### S2 — <the next situation>
+### S2 — Fail safely when a rule cannot be represented in SQL Server
 
 **Priority:** P2
+**Actor:** rule compiler maintainer
+**Context:** An unsupported datasource, missing field mapping, or invalid operator is encountered during compilation.
 
-- **Given** … **When** … **Then** …
+- **Given** an unsupported datasource or operator
+  **When** the compiler attempts to generate SQL Server output
+  **Then** it raises a clear validation error or handles the unsupported branch according to the documented fallback semantics instead of producing invalid SQL.
+
+- **Given** missing namespace or table metadata
+  **When** the compiler resolves a field to a target table
+  **Then** it fails before execution and identifies the missing mapping to the caller.
 
 ## Failure and empty states
 
-What happens the first time, with nothing there yet, and when each step fails. These are where
-specifications are usually silent and implementations usually improvise.
-
-- **Empty:** <no records yet>
-- **Failure:** <the dependency is unavailable>
-- **Partial:** <some of it worked>
+- **Empty:** A request with no rules or no namespace metadata produces an explicit validation error or a documented empty-result query rather than silent miscompilation.
+- **Failure:** Unsupported operators, missing field mappings, or invalid rule shapes fail fast with actionable diagnostics.
+- **Partial:** If any term in a rule set is invalid, the compiler must not silently emit a partially-correct query; it must reject the input or report the invalid term set clearly.
 
 ## Permissions
 
-Who may do each thing, and what a reader without that authority sees instead.
+- The library exposes the SQL generation API only to code paths that already have access to the rule definitions and namespace metadata.
+- The compiler does not bypass database permissions; it only emits SQL for execution by callers who have authorization to run it.
+- A reader without access to the underlying table metadata sees only the generated SQL structure and parameter list, not privileged schema details not already provided to the caller.
 
 ## Boundary conditions
 
-Limits, sizes, counts, timeouts, and what happens exactly at and beyond each one.
+- The SQL Server compiler must support the same practical rule sizes currently supported by the Postgres and Spark paths, with a single-rule evaluation set of up to 100 predicate terms in a standard local-development run.
+- Field and table names must resolve to SQL Server-safe identifiers, and literal values must remain bound parameters or explicit safe literals rather than raw string interpolation.
+- Date arithmetic, comparisons, and null semantics must be deterministic and must align with the rule evaluation model used by the compiler.
 
 ## Requirements
 
-Numbered, testable, one obligation each. Cite the scenario each serves.
-
-- **REQ-001** — <requirement>. *(S1)*
-- **REQ-002** — <requirement>. *(S1, S2)*
+- **REQ-001** — The library must provide a SQL Server compilation path equivalent to the current Postgres and Spark SQL outputs and return both the generated SQL text and its bound parameter values. *(S1)*
+- **REQ-002** — Generated SQL Server queries must use standard T-SQL syntax and must not rely on dialect-specific behavior outside the supported subset. *(S1)*
+- **REQ-003** — The compiler must preserve the logical structure of AND/OR groupings and field comparisons from the source rule JSON when generating SQL Server predicates. *(S1)*
+- **REQ-004** — Unsupported datasources, operators, or missing namespace mappings must fail fast with clear diagnostics instead of emitting invalid SQL. *(S2)*
+- **REQ-005** — All user-provided values used in generated predicates must be parameterized or safely escaped so the compiler does not create SQL injection opportunities. *(S1, S2)*
+- **REQ-006** — The compiler must be deterministic: identical inputs produce identical SQL text and parameter ordering across repeated runs. *(S1)*
 
 ## Non-functional requirements
 
-Latency, throughput, availability, accessibility, privacy, retention. State the number and how it
-will be measured; "fast" is not a requirement.
+- **NFR-001** — Median compilation time for a 100-term rule on a standard local development machine shall be no greater than 250 ms.
+- **NFR-002** — The SQL Server output must be stable across repeated invocations for the same rule and namespace configuration.
+- **NFR-003** — The generated query must contain no direct interpolation of untrusted input values.
+- **NFR-004** — Compile-time errors must identify the failing field, namespace, or operator in a way that supports rapid remediation.
 
 ## Constitution articles
 
-Cite the article IDs this specification is bound by `[SPK:REQ-100]`. The kernel validates that each
-cited ID exists at the pinned revision before publication `[SPK:REQ-101]`.
-
-- <ART-…>
+- None. This work item does not pin a constitution at the current revision.
 
 ## Assumptions
 
-What this specification takes as true without proving. An assumption that turns out false is a
-change request, not a defect — which is only true if it was written down.
+- SQL Server follows standard T-SQL behavior for comparisons, date functions, and null semantics.
+- Namespace metadata includes an authoritative mapping from rule field names to tables and primary keys.
+- Rule JSON is already parsed and normalized before the SQL Server compiler receives it.
 
 ## Out of scope
 
-Named explicitly, so the boundary is reviewable rather than inferred.
+- Database migration, schema creation, or execution-plan tuning for SQL Server.
+- Support for proprietary SQL Server features beyond the standard T-SQL subset needed for rule compilation.
+- Conversion of non-DB-backed rule sources into SQL Server queries.

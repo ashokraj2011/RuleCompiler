@@ -1,0 +1,35 @@
+{
+  "artifact": {
+    "bytes": 6948,
+    "path": "singularity/work-items/WRK-19/artifacts/specification/spec.md",
+    "role": "document",
+    "sha256": "8a76cba6222d92ce4d1dfac2541f11af8b77ec25d248fb6046267e6b61a3e017"
+  },
+  "configuration": {
+    "revision": "753718b6342cebac99acb9be11df6244dd3d3965",
+    "sha256": "1935137921d0b0b1118cfe1277c1624c8c234b350586c81e5f3ac0cf0c6052f9"
+  },
+  "generation": 1,
+  "inputs": [],
+  "integritySha256": "9b68dfad6245411ec7ed8c098946c7180bc8d6a566a30bf6b3758d3829fa3b5a",
+  "phase": "specification",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": null,
+    "kind": "human"
+  },
+  "publication": {
+    "branch": "WRK-19",
+    "commit": null,
+    "publishedAt": "2026-08-18T00:04:07.763Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-19",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/spec-driven/spec.md",
+    "sha256": "aa4c5c86467f07303011fde5981b819f330528435b7ce141466285cf15afdd94"
+  }
+}
