@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-18T01:09:20.635Z",
+  "generated_at": "2026-08-18T01:29:31.886Z",
   "generated_date": "18 August 2026",
   "builder_version": "2.1-light",
   "builder_prompt_sha256": "511654826223e40b93c54f48f9b773f155e3364326d41aa98108dea7217d75cd",
-  "repository_commit": "f64145299a08e1e65f1b1e7bec4bb9aad89acc93",
+  "repository_commit": "e208f5362faf513f971463e1c19b1a28a2f9ef1f",
   "repository_branch": "WRK-19",
   "working_tree_clean": false,
-  "generated_for_phase": "verification",
+  "generated_for_phase": "release",
   "analysis_depth": "light",
   "source_tree_sha256": "sha256:dd7d1325e3b4ae8bc51ef8b7d431c2405cf6c8dccd3a883450af344102412295",
   "generator": {
@@ -96,17 +96,32 @@
           "sha256": null
         }
       }
+    },
+    "release": {
+      "tiers": {
+        "brief": {
+          "status": "ready",
+          "path": "views/release.brief.md",
+          "bytes": 192,
+          "sha256": "0a0313dd339b47f1f5996a74d2657b1507364194049ccfaec8b2ea582f6b826f"
+        },
+        "full": {
+          "status": "missing",
+          "path": null,
+          "bytes": 0,
+          "sha256": null
+        }
+      },
+      "brief_path": "views/release.brief.md",
+      "path": null,
+      "generated": true
     }
   },
   "views_generated": [
-    "testing",
-    "development",
-    "security"
+    "release"
   ],
   "requested_views": [
-    "testing",
-    "development",
-    "security"
+    "release"
   ],
   "domains": [],
   "task_guides": [
@@ -114,6 +129,11 @@
       "id": "task-87eecf20b928",
       "path": "task-guides/87eecf20b92821e3.md",
       "task": "Verify the SQL Server compiler implementation against the approved acceptance criteria, confirm the focused rule compilation behavior, and capture evidence from the relevant tests."
+    },
+    {
+      "id": "task-1189d8e1036d",
+      "path": "task-guides/1189d8e1036d9206.md",
+      "task": "Finalize release for WRK-19"
     }
   ],
   "evidence": {
@@ -147,6 +167,23 @@
         "testing/full"
       ],
       "reused": []
+    },
+    {
+      "id": "light-1787016572024",
+      "generated_at": "2026-08-18T01:29:31.886Z",
+      "source_tree_sha256": "sha256:dd7d1325e3b4ae8bc51ef8b7d431c2405cf6c8dccd3a883450af344102412295",
+      "provider": null,
+      "requested": [
+        "core/brief",
+        "release/brief"
+      ],
+      "produced": [
+        "core/brief",
+        "release/brief"
+      ],
+      "reused": [
+        "core/brief"
+      ]
     }
   ]
 }
