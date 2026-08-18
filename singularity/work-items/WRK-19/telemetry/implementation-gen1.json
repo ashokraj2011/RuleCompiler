@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-19",
+  "workType": "spec-driven-standard",
+  "phase": "implementation",
+  "generation": 1,
+  "capturedAt": "2026-08-18T00:31:29.105Z",
+  "source": "not-invoked",
+  "rawTraceCommitted": false,
+  "spanCount": 0,
+  "rawBytesRead": 0,
+  "startedAt": null,
+  "completedAt": null,
+  "pending": false,
+  "warnings": [],
+  "usage": []
+}

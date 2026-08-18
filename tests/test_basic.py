@@ -56,3 +56,28 @@ def test_spark_date():
     }
     sql, _ = RuleCompiler(namespace_config()).to_spark_sql(rule, mid_value="1")
     assert "date_sub(current_date(), 8)" in sql
+
+
+def test_sql_server_single_rule():
+    rule = {
+        "op": "all",
+        "terms": [
+            {"comp": "greater than equal to", "field": {"name": "amount", "namespace": "moneyMovementEnriched", "datasource": "DB", "evaluation_group": "1"}, "value": "800"}
+        ],
+    }
+    sql, params = RuleCompiler(namespace_config()).to_sql_server_sql(rule, mid_value="12345")
+    assert "FROM money_movement_enriched t1" in sql
+    assert "t1.mid = ?" in sql
+    assert "t1.amount >= 800" in sql
+    assert params == ["12345"]
+
+
+def test_sql_server_relative_date():
+    rule = {
+        "op": "all",
+        "terms": [
+            {"comp": "equal to", "field": {"name": "expiration_date", "namespace": "moneyMovementEnriched", "datasource": "DB", "evaluation_group": "1"}, "value": "CURRENT_DATE:ago:8:day(s)"}
+        ],
+    }
+    sql, _ = RuleCompiler(namespace_config()).to_sql_server_sql(rule, mid_value="1")
+    assert "DATEADD(day, -8, CAST(GETDATE() AS date))" in sql
