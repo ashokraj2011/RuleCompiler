@@ -1,0 +1,152 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-08-18T01:09:20.635Z",
+  "generated_date": "18 August 2026",
+  "builder_version": "2.1-light",
+  "builder_prompt_sha256": "511654826223e40b93c54f48f9b773f155e3364326d41aa98108dea7217d75cd",
+  "repository_commit": "f64145299a08e1e65f1b1e7bec4bb9aad89acc93",
+  "repository_branch": "WRK-19",
+  "working_tree_clean": false,
+  "generated_for_phase": "verification",
+  "analysis_depth": "light",
+  "source_tree_sha256": "sha256:dd7d1325e3b4ae8bc51ef8b7d431c2405cf6c8dccd3a883450af344102412295",
+  "generator": {
+    "type": "deterministic-local",
+    "model": null,
+    "model_tokens": 0
+  },
+  "core": {
+    "brief": "core/summary.brief.md",
+    "summary": "core/summary.md",
+    "model": {
+      "path": "core/model.json"
+    },
+    "tiers": {
+      "brief": {
+        "status": "ready",
+        "path": "core/summary.brief.md",
+        "bytes": 563,
+        "sha256": "63aec0cbd340a295ad8e3dfd1889fb289305443f66b0e962e9ef5d34c7871612"
+      },
+      "full": {
+        "status": "ready",
+        "path": "core/summary.md",
+        "bytes": 1777,
+        "sha256": "f66b2c92cce60197917e417055435dc047b42fbb7d70c4fc8167ba1b7c3080b7"
+      }
+    }
+  },
+  "path_index": {
+    "path": "index/path-map.json"
+  },
+  "views": {
+    "testing": {
+      "path": "views/testing.md",
+      "brief_path": "views/testing.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "missing",
+          "path": "views/testing.brief.md",
+          "bytes": 0,
+          "sha256": null
+        },
+        "full": {
+          "status": "ready",
+          "path": "views/testing.md",
+          "bytes": 872,
+          "sha256": "1352eaf642c317d72fe58b7dfbcdd04543af4eaf41b139e94fd06f761f4d8229"
+        }
+      }
+    },
+    "development": {
+      "path": "views/development.md",
+      "brief_path": "views/development.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "ready",
+          "path": "views/development.brief.md",
+          "bytes": 352,
+          "sha256": "5532197b29b3de2f905a10b02691e29804592ce5657e92cdea2876caaddff51f"
+        },
+        "full": {
+          "status": "missing",
+          "path": "views/development.md",
+          "bytes": 0,
+          "sha256": null
+        }
+      }
+    },
+    "security": {
+      "path": "views/security.md",
+      "brief_path": "views/security.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "ready",
+          "path": "views/security.brief.md",
+          "bytes": 193,
+          "sha256": "a10d15cb53a8351c715ef181eca1aa74c05dd8481e3acacf5a3fb1ff12a67578"
+        },
+        "full": {
+          "status": "missing",
+          "path": "views/security.md",
+          "bytes": 0,
+          "sha256": null
+        }
+      }
+    }
+  },
+  "views_generated": [
+    "testing",
+    "development",
+    "security"
+  ],
+  "requested_views": [
+    "testing",
+    "development",
+    "security"
+  ],
+  "domains": [],
+  "task_guides": [
+    {
+      "id": "task-87eecf20b928",
+      "path": "task-guides/87eecf20b92821e3.md",
+      "task": "Verify the SQL Server compiler implementation against the approved acceptance criteria, confirm the focused rule compilation behavior, and capture evidence from the relevant tests."
+    }
+  ],
+  "evidence": {
+    "path": "evidence/evidence.jsonl"
+  },
+  "generation": {
+    "parallel": false,
+    "strategy": "deterministic-light",
+    "max_workers": 0,
+    "discovery_views": [],
+    "degraded_views": [],
+    "resumed_views": [],
+    "pending_views_at_start": []
+  },
+  "materializations": [
+    {
+      "id": "light-1787015361566",
+      "generated_at": "2026-08-18T01:09:20.635Z",
+      "source_tree_sha256": "sha256:dd7d1325e3b4ae8bc51ef8b7d431c2405cf6c8dccd3a883450af344102412295",
+      "provider": null,
+      "requested": [
+        "core/brief",
+        "development/brief",
+        "security/brief",
+        "testing/full"
+      ],
+      "produced": [
+        "core/brief",
+        "development/brief",
+        "security/brief",
+        "testing/full"
+      ],
+      "reused": []
+    }
+  ]
+}
