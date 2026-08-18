@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/WRK-19/artifacts/release/conformance.md",
+    "phaseId": "release"
+  },
+  "createdAt": "2026-08-18T01:32:46.953Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "rulecompiler",
+    "origin": "https://github.com/ashokraj2011/RuleCompiler.git"
+  },
+  "revision": {
+    "bytes": 92776,
+    "commitSha": "c7ef185c8613439f2b4242154707d4934a4c4da7",
+    "sha256": "098e16b4a295c7bc8d4d135cb1417657f41fc1436e1f52eac731afaba658ca87"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-19",
+    "id": "WRK-19",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
