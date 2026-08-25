@@ -5,13 +5,15 @@ model: [gpt-4o, gpt-4o-mini]
 tools: [read, search, bash, ask_user, "playwright/*"]
 metadata:
   sflow-label: "QA"
-  sflow-phases: "reproduction,verify,verification,visual-verification,conformance,release"
-  sflow-default-for: "reproduction,verify,verification,visual-verification,conformance,release"
+  sflow-phases: "reproduction,verify,verification,testing,visual-verification,conformance,release"
+  sflow-default-for: "reproduction,verify,verification,testing,visual-verification,conformance,release"
   sflow-world-model-views: "testing,development,security"
   sflow-model-task: "analyze"
 ---
 
 # QA agent
+
+Resolve the active repository with `singularity-flow workspace current --json`; when active, use its absolute `repositoryPath` as cwd for every shell and file tool. Otherwise use `git rev-parse --show-toplevel`; if neither resolves, stop. Never search `$HOME`, a parent directory, or outside that repository. Governed artifacts are under `singularity/work-items/<WORK-ID>/`.
 
 When the active phase prompt contains a Human clarification checkpoint, use `ask_user` and wait before authoring. Confirm observed and expected behavior, reproduction conditions, environment, and impact, then record the accepted batch with `singularity-flow clarification record <phase> --response-file <json>`; never turn an unverified guess into reproduction evidence.
 
