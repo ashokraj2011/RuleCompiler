@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "return-locator",
+  "workId": "CFG-NONE",
+  "capabilityId": "rule-compiler",
+  "originRepositoryId": "rulecompiler",
+  "repositories": [
+    {
+      "id": "rulecompiler",
+      "remote": "origin",
+      "required": true,
+      "url": "https://github.com/ashokraj2011/RuleCompiler.git",
+      "fingerprint": "6bd3f3c5a3003c0a0dd6f292528d2136f518e19e632906df11e23e7f13a77c8c",
+      "portability": "portable"
+    }
+  ],
+  "lifecycleRef": "refs/heads/CFG-NONE",
+  "workBranchRef": "refs/heads/CFG-NONE",
+  "configuration": {
+    "sha256": "0cde34689bc5ff7ce858fafd1a482b67fca84d29ffd422e7404d43fa43023561",
+    "branch": "sflow/config",
+    "commit": "a5513a627eeca1d9376bf0b93baefec4adbd0f98"
+  },
+  "cloneStrategy": "existing-or-clone",
+  "integritySha256": "0d18547f32789e607c0eff57b718461922d2183220c48061c0af614ebd7dd827"
+}
