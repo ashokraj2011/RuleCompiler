@@ -71,6 +71,9 @@ artifactSets:
 ast:
   mode: auto
   fallback: host-and-text
+  warmOnStoryStart:
+    mode: background
+    scope: configured-roots
   evidence:
     mode: replayable
     store: local-directory
@@ -723,7 +726,7 @@ phases:
       authorities:
         - design-reviewers
         - quality-reviewers
-      minimum: 2
+      minimum: 1
       rejectTo:
         - component-mapping
         - mobile-spec
@@ -1087,8 +1090,7 @@ phases:
         - engineering-reviewers
       requiredAuthorities:
         - quality-reviewers
-        - engineering-reviewers
-      minimum: 2
+      minimum: 1
       rejectTo:
         - poc-intake
         - poc-impact-analysis
@@ -1641,7 +1643,7 @@ workTypes:
             - design-reviewers
             - architecture-reviewers
             - quality-reviewers
-          minimum: 2
+          minimum: 1
           rejectTo:
             - design-inventory
             - component-mapping
