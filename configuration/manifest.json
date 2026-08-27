@@ -3,11 +3,11 @@
   "layout": "canonical-paths",
   "source": {
     "branch": "sflow/config",
-    "commit": "be6c0d38b763f888731ee5090f9af23468d7edcc"
+    "commit": "45eb38bda2b25dff57b1fddb74bcfdc401779917"
   },
   "product": {
     "version": "0.9.0",
-    "revision": "85e831e34abda65b2f67204e73a4780c47e34f15"
+    "revision": "56007fb5cdd8ccaba1ce810a32a938aa27a71032"
   },
   "files": {
     ".github/agents/architect.agent.md": "188198ceb7da73ef10814aaea2426dea127442f199fa16939f84a95415547ee5",
@@ -20,11 +20,11 @@
     ".github/agents/poc-validator.agent.md": "083dd2ee6f941c5f873f9b42d4ec50faf450cb703fd55951dd55244d1bc1d82e",
     ".github/agents/product-designer.agent.md": "330f43cec8f05c22cef3fcec99be31daab818b36c2e7dabd25293c95b05acea4",
     ".github/agents/product-owner.agent.md": "491241469786c77bf5f99384fdb7f9c0da7abf637fb5e8fc531992a6168f0027",
-    ".github/agents/qa.agent.md": "3c0c9560c422fc616b391277b38d409b004864449b1a9cf4aa06bd5e302233e5",
+    ".github/agents/qa.agent.md": "b373c066ef3f0d1e5bcf0e598d6fd5e6022e375fc5fcd28e8c9c618de5e73cfe",
     "singularity/agent-mappings.yml": "1b39a4f4caa3242749889a291e2259a361c815712bd762abde3db3cbe9f8a688",
     "singularity/capabilities.yml": "33b1b220f05759f456a37eb54d83cf8619569b63d32e06b9528247c86a3dbfc3",
     "singularity/impact.yml": "01f0e5b259c920a4c6c2185d0d971a8ae53bd233fc9e36926666095eedf282cb",
-    "singularity/modelTiers.yml": "9a6b011b1033b205981d7dd1e87a215a3de53f81c2e422a85d9f8d6438d36faf",
+    "singularity/modelTiers.yml": "9c829dea6676d1ad6066197a582125ec049a7e42c62300736ec83cb2ba563449",
     "singularity/portfolio.yml": "839ad606f3ae6ef806920d00b6a918fbd8eac814d04b5aa7c85dee58c80fe0d8",
     "singularity/prompts/copilot-planning.md": "4128acc6930949e4ba1e50e8b8c7c4f7beb23f4361c2e8428475b081712b77db",
     "singularity/prompts/worldmodel-builder.md": "cd93d41ccc98e4ccc09550c60cc79ad6c5a6004d7f8ea66cec596640ab73ffb4",
@@ -117,6 +117,6 @@
     "singularity/templates/spec-driven/plan.md": "303b6402e8c2c925c3507ce1eafe95bb08a69d097509cb6f8a0b5e3bee1db23f",
     "singularity/templates/spec-driven/release.md": "d79502d1b97d92cbd4527e548616a6d0154b8ef4083ed3d792b4f6c9ca9246a3",
     "singularity/templates/spec-driven/spec.md": "aa4c5c86467f07303011fde5981b819f330528435b7ce141466285cf15afdd94",
-    "singularity/workflow.yml": "75a50b7446a7a8273e45b5c6e846b6bbcb5b96a1fef575a79d411c3bf28e9d9d"
+    "singularity/workflow.yml": "7de31ecd9eb8e37f7ca7f8ee6fe2697932ba44527c0072c45f2f6be17b456d07"
   }
 }
