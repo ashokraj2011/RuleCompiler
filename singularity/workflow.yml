@@ -1750,6 +1750,8 @@ workTypes:
       - convergence
       - verification
       - release
+    spec:
+      mode: enforce
     templateOverrides:
       specification: spec-driven/spec.md
       planning: spec-driven/plan.md
