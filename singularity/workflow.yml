@@ -1,35 +1,35 @@
 approvalAuthorities:
-  product-approvers:
-    label: Product approvers
-    allowAnyGitIdentity: false
-    members:
-      - name: Ashok Raj
-        email: 88361104+ashokraj2011@users.noreply.github.com
-        githubLogin: ashokraj2011
   architecture-reviewers:
+    allowAnyGitIdentity: false
     label: Architecture reviewers
-    allowAnyGitIdentity: false
-    members:
-      - name: Ashok Raj
-        email: 88361104+ashokraj2011@users.noreply.github.com
-        githubLogin: ashokraj2011
-  engineering-reviewers:
-    label: Engineering reviewers
-    allowAnyGitIdentity: false
-    members:
-      - name: Ashok Raj
-        email: 88361104+ashokraj2011@users.noreply.github.com
-        githubLogin: ashokraj2011
-  quality-reviewers:
-    label: Quality reviewers
-    allowAnyGitIdentity: false
     members:
       - name: Ashok Raj
         email: 88361104+ashokraj2011@users.noreply.github.com
         githubLogin: ashokraj2011
   design-reviewers:
-    label: Design reviewers
     allowAnyGitIdentity: false
+    label: Design reviewers
+    members:
+      - name: Ashok Raj
+        email: 88361104+ashokraj2011@users.noreply.github.com
+        githubLogin: ashokraj2011
+  engineering-reviewers:
+    allowAnyGitIdentity: false
+    label: Engineering reviewers
+    members:
+      - name: Ashok Raj
+        email: 88361104+ashokraj2011@users.noreply.github.com
+        githubLogin: ashokraj2011
+  product-approvers:
+    allowAnyGitIdentity: false
+    label: Product approvers
+    members:
+      - name: Ashok Raj
+        email: 88361104+ashokraj2011@users.noreply.github.com
+        githubLogin: ashokraj2011
+  quality-reviewers:
+    allowAnyGitIdentity: false
+    label: Quality reviewers
     members:
       - name: Ashok Raj
         email: 88361104+ashokraj2011@users.noreply.github.com
@@ -275,6 +275,7 @@ models:
     copilot-cli:
       type: copilot-cli
       executable: copilot
+      promptTransport: auto
       arguments: []
 noModel:
   unknownExternalCommands: warn
