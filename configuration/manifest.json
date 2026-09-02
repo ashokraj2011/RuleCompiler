@@ -3,15 +3,15 @@
   "layout": "canonical-paths",
   "source": {
     "branch": "sflow/config",
-    "commit": "c8dd2d203ab0b78821a7abffb5c139a93b534e0d"
+    "commit": "6487fc21730737737971cd731f9c26d52547e6f7"
   },
   "history": {
-    "branch": "sflow/config-history/c8dd2d203ab0b78821a7abffb5c139a93b534e0d",
-    "commit": "c8dd2d203ab0b78821a7abffb5c139a93b534e0d"
+    "branch": "sflow/config-history/6487fc21730737737971cd731f9c26d52547e6f7",
+    "commit": "6487fc21730737737971cd731f9c26d52547e6f7"
   },
   "product": {
     "version": "0.9.0",
-    "revision": "31ae1a2565cdaf65a902c3436787dd617cb11ebe"
+    "revision": "a46448c50b94a39722a429cd89ba7ad1ba8fbcc5"
   },
   "files": {
     ".github/agents/architect.agent.md": "188198ceb7da73ef10814aaea2426dea127442f199fa16939f84a95415547ee5",
