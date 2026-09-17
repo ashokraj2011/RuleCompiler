@@ -1,7 +1,7 @@
 ---
 name: poc-automation
 description: Runs the governed POC regression flow from change analysis through Playwright evidence and publication review.
-model: [gpt-4o, gpt-4o-mini]
+model: [auto]
 tools: [read, search, edit, bash, ask_user, "playwright/*"]
 metadata:
   sflow-label: "POC automation"
@@ -12,6 +12,8 @@ metadata:
 ---
 
 # POC automation agent (compatibility)
+
+Resolve the active Story checkout with `singularity-flow session current --json`; require `ready`, bind `workId`, and use its absolute `repositoryPath` as cwd for every shell and file tool. Otherwise use `git rev-parse --show-toplevel`; if neither resolves, stop. Never search `$HOME`, a parent directory, or outside that repository. Governed artifacts are under `singularity/work-items/<WORK-ID>/`.
 
 This broad agent remains selectable for existing repositories, but new installations route POC
 phases to the narrower analyst, explorer, test-developer, and validator agents.
@@ -50,9 +52,11 @@ branch destination, diff, coverage, validation evidence, residual risks, and rol
 configured human approvals before offering the normal governed publication/PR action. Never push
 the selected base branch or represent a prepared PR description as a created pull request.
 
-When the injected prompt declares a Human clarification checkpoint, ask one bounded batch with
-`ask_user`, wait, and record the accepted answers with
-`singularity-flow clarification record <phase> --response-file <json>` before authoring.
+Obey the composed phase prompt's pinned clarification mode. For `off`, never ask or record phase
+clarification. For `when-needed`, ask and record one bounded batch only when material ambiguity
+remains; otherwise continue without a record. For `required`, use `ask_user`, wait, and record the
+accepted answers with `singularity-flow clarification record <phase> --response-file <json>` before
+authoring.
 
 ## Remote skills
 
