@@ -3,15 +3,15 @@
   "layout": "canonical-paths",
   "source": {
     "branch": "sflow/config",
-    "commit": "66b633644edc27bed67f5e855602fd160453955e"
+    "commit": "40e2c2efac4acef70c58ddd016ed6f6286ac3c3b"
   },
   "history": {
-    "branch": "sflow/config-history/66b633644edc27bed67f5e855602fd160453955e",
-    "commit": "66b633644edc27bed67f5e855602fd160453955e"
+    "branch": "sflow/config-history/40e2c2efac4acef70c58ddd016ed6f6286ac3c3b",
+    "commit": "40e2c2efac4acef70c58ddd016ed6f6286ac3c3b"
   },
   "product": {
     "version": "0.9.0",
-    "revision": "4ff003fbee6882cd466e8073af9a54e99238b810"
+    "revision": "799e09fe74b42719c26496866526fb0007467dd5"
   },
   "files": {
     ".github/agents/architect.agent.md": "c17746841c5afad787e9a33c8a97aa6de15bf44a798d541f1d4c61659485d872",
@@ -45,9 +45,9 @@
     "singularity/templates/bugfix/intake.md": "c0aa89555e400e9c78c782021b1928175607f32ad20773c70fae04b28ced320c",
     "singularity/templates/bugfix/reproduction.md": "083e0361f6ffe9e84905b21558554c8335ab1a036719cb37f104e03f255f3567",
     "singularity/templates/chore/intake.md": "d4632690fa411f3926eee1bfd474f5907aae5efdd31313576acdac04e8934441",
-    "singularity/templates/classic-delivery/code-checking.md": "326a133f1626dd1de9385f37742eaba4a960f2f2549feaca3f4cd87c3027d834",
+    "singularity/templates/classic-delivery/code-checking.md": "795636436d0542eedc116e5789f019c6ca675100176e78e29b08c92a3942addd",
     "singularity/templates/classic-delivery/intake.md": "d91d55500e7dbc30a388633bce723623157619bca0bbc9bbaf8e64dfd85308a8",
-    "singularity/templates/classic-delivery/testing.md": "b77007d921942a7e23b8ffa598f0f20ced19bfb09abde1a9156fee7f83a2534d",
+    "singularity/templates/classic-delivery/testing.md": "d84b65e54ff4210a7fab6cc1af3a2ea45bbba61fbee383a1ef985f31848ff177",
     "singularity/templates/common/conformance.md": "dcb95249d8fef0dcdb87a6f012f09c481a47813e50f4e8dd96be207c81c15ada",
     "singularity/templates/common/implementation.md": "5d0478b18c8fd14221e14c68e6238b909bccd6802a70262c416005354716c62c",
     "singularity/templates/common/intake.md": "e16cd8b47f472973823a1a53294c77ac6551285c4df75e916c739611c3bc1d23",
@@ -127,11 +127,14 @@
     "singularity/templates/poc-workflow/validation.md": "b1d121afbd49c09538d221cbac60b352a21f7eb7699bc4cba08d35b88ba47fb6",
     "singularity/templates/quick-fix/implement.md": "dff093133a1be4c93115cfbbb0d994c8ce391fc19279caee30b441ec27a05c0a",
     "singularity/templates/quick-fix/verify.md": "a21900d99d044d35de501f0e43888a8a3ebcfe860e702a5d1b3eec61fdd06f27",
+    "singularity/templates/spec-code-test-loop/conformance.md": "8e3f2c7b86b934d12e9929f31de6d1e6545a388592095a5147b4ab957e4389d7",
+    "singularity/templates/spec-code-test-loop/specification.md": "4a487088d8275fc54afcb7932c18a4fb04774e85309b26b3ae72618ce9762bc6",
+    "singularity/templates/spec-code-test-loop/testing.md": "eef65b164a45b3df7843d76ef071e9d9932304ec9861c8ed19c646db105f9284",
     "singularity/templates/spec-driven/convergence.md": "6901106457eec3b69da7bf60f290529079b7c9dfa4cb59db780ec5406920a832",
     "singularity/templates/spec-driven/plan.md": "303b6402e8c2c925c3507ce1eafe95bb08a69d097509cb6f8a0b5e3bee1db23f",
     "singularity/templates/spec-driven/release.md": "d79502d1b97d92cbd4527e548616a6d0154b8ef4083ed3d792b4f6c9ca9246a3",
     "singularity/templates/spec-driven/spec.md": "aa4c5c86467f07303011fde5981b819f330528435b7ce141466285cf15afdd94",
-    "singularity/workflow.yml": "80cf262798717a939a784aaa3abc8f783be3053862c925ca0c223e4fd4dbe9d5"
+    "singularity/workflow.yml": "bdfd75ade674b384a3cdcf127fab4e3043acb4d8853afea245fa9de3dfb2b919"
   },
   "assets": {
     ".github/agents/architect.agent.md": {
@@ -290,8 +293,8 @@
       "mode": "100644"
     },
     "singularity/templates/classic-delivery/code-checking.md": {
-      "sha256": "326a133f1626dd1de9385f37742eaba4a960f2f2549feaca3f4cd87c3027d834",
-      "object": "64b7b79d264bee68a0f91cabbc133b68e08e1bb2",
+      "sha256": "795636436d0542eedc116e5789f019c6ca675100176e78e29b08c92a3942addd",
+      "object": "c1dbd540c04ec6f8abccecc550cbbeb0e5bffb64",
       "mode": "100644"
     },
     "singularity/templates/classic-delivery/intake.md": {
@@ -300,8 +303,8 @@
       "mode": "100644"
     },
     "singularity/templates/classic-delivery/testing.md": {
-      "sha256": "b77007d921942a7e23b8ffa598f0f20ced19bfb09abde1a9156fee7f83a2534d",
-      "object": "da1fe9298b929fbb03e2c9e3e4ada36506372b7f",
+      "sha256": "d84b65e54ff4210a7fab6cc1af3a2ea45bbba61fbee383a1ef985f31848ff177",
+      "object": "5805ffc22545b221c6d5c5604a46fb138278f9f2",
       "mode": "100644"
     },
     "singularity/templates/common/conformance.md": {
@@ -699,6 +702,21 @@
       "object": "3ee84e3b6d5dca6c58afefd4d1797abee3c6ab61",
       "mode": "100644"
     },
+    "singularity/templates/spec-code-test-loop/conformance.md": {
+      "sha256": "8e3f2c7b86b934d12e9929f31de6d1e6545a388592095a5147b4ab957e4389d7",
+      "object": "b7ed5d4d84c725c31bbe226deca7dbd2b288e487",
+      "mode": "100644"
+    },
+    "singularity/templates/spec-code-test-loop/specification.md": {
+      "sha256": "4a487088d8275fc54afcb7932c18a4fb04774e85309b26b3ae72618ce9762bc6",
+      "object": "4311df2e3d71bccc46de077be2c4eb1d62ce09a9",
+      "mode": "100644"
+    },
+    "singularity/templates/spec-code-test-loop/testing.md": {
+      "sha256": "eef65b164a45b3df7843d76ef071e9d9932304ec9861c8ed19c646db105f9284",
+      "object": "a415f50ba9d1b893a32ade8caf24360a36559c26",
+      "mode": "100644"
+    },
     "singularity/templates/spec-driven/convergence.md": {
       "sha256": "6901106457eec3b69da7bf60f290529079b7c9dfa4cb59db780ec5406920a832",
       "object": "38b4399d2700c1dfcdb23995acdc5fa40f5567be",
@@ -720,8 +738,8 @@
       "mode": "100644"
     },
     "singularity/workflow.yml": {
-      "sha256": "80cf262798717a939a784aaa3abc8f783be3053862c925ca0c223e4fd4dbe9d5",
-      "object": "9dfd80e26d7537876c20a3a47826c62b7a7a500f",
+      "sha256": "bdfd75ade674b384a3cdcf127fab4e3043acb4d8853afea245fa9de3dfb2b919",
+      "object": "d1ff925dcc94c8aa27318e2bdd3e2d9ffb506f96",
       "mode": "100644"
     }
   }
