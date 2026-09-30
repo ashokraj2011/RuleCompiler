@@ -3,15 +3,15 @@
   "layout": "canonical-paths",
   "source": {
     "branch": "sflow/config",
-    "commit": "efb96e93bb247aa4cfae6578c794d62ec3d4e23a"
+    "commit": "cd37ddf76c954168478bf190a9467fe4ad877d94"
   },
   "history": {
-    "branch": "sflow/config-history/efb96e93bb247aa4cfae6578c794d62ec3d4e23a",
-    "commit": "efb96e93bb247aa4cfae6578c794d62ec3d4e23a"
+    "branch": "sflow/config-history/cd37ddf76c954168478bf190a9467fe4ad877d94",
+    "commit": "cd37ddf76c954168478bf190a9467fe4ad877d94"
   },
   "product": {
     "version": "0.9.0",
-    "revision": "c565c6d32bfbc671af554e83de2e3a2233660ac0"
+    "revision": "0a03309160518def6b94e2b27af1c7e88c03e212"
   },
   "files": {
     ".github/agents/architect.agent.md": "cb10e2ec957759b702df2935ed7889192da5946814c97f9ca6c9e53b173f3342",
@@ -58,7 +58,7 @@
     "singularity/templates/feature/requirements.md": "32016db8ed6fadd6596e7dc702647cff95cdee1a203b38395d7ba5626dd8134e",
     "singularity/templates/figma-mobile/component-mapping.md": "cdea8a1e3defa73ade72bdaaac162ecd9b8b43817aa319d7e712e2de2eb296a3",
     "singularity/templates/figma-mobile/conformance.md": "f96e5271156d2dadca7cbf5687599724c4e47e328db6635ccf46b4adacaac147",
-    "singularity/templates/figma-mobile/design-intake.md": "f84db46cdf86cf8c4da4de0062d7150466d5dd291baf6495bd9523affa9a6453",
+    "singularity/templates/figma-mobile/design-intake.md": "5cb9495b64189d9f73d6aae23201197d7634cbf46d03176544badfc7683518ef",
     "singularity/templates/figma-mobile/design-inventory.md": "822ea61a75a25ec5a6b42dd887c842d5126233b36f7f0fc875402f9a43125079",
     "singularity/templates/figma-mobile/implementation.md": "69b5b75886dcc41da4e3063c7ceb6ff805251f98dd40ee41b2bf5de660dc74da",
     "singularity/templates/figma-mobile/mobile-spec.md": "18c583c10c597c595cd0be9c11ddf16e92a0b85147efcd4fd3fb1a9bbd96fc44",
@@ -136,7 +136,7 @@
     "singularity/templates/spec-driven/spec.md": "aa4c5c86467f07303011fde5981b819f330528435b7ce141466285cf15afdd94",
     "singularity/templates/starter-packs/skp-team-notes/draft-input.json": "71b39ad32ea3d376bf3a9b45a3f3e6cedea81a1cd95948108635be4aca08c6c5",
     "singularity/templates/starter-packs/skp-team-notes/README.md": "ab3e66d1654df81922a6022c491ac85868cb3b644e0eace77c4f9089c4f599ea",
-    "singularity/workflow.yml": "bd75c458540359a2e3011cabc8fed0d2cdb4df4ffc5f1c0cbe4247a060f84dd4"
+    "singularity/workflow.yml": "5c742466dc875a9e775b24787234c37f5e79bf9e3d8ceb04dc8017378c8718d5"
   },
   "assets": {
     ".github/agents/architect.agent.md": {
@@ -360,8 +360,8 @@
       "mode": "100644"
     },
     "singularity/templates/figma-mobile/design-intake.md": {
-      "sha256": "f84db46cdf86cf8c4da4de0062d7150466d5dd291baf6495bd9523affa9a6453",
-      "object": "6d7b3a16eb55a852c2a402c74f6e03b2a3af5a69",
+      "sha256": "5cb9495b64189d9f73d6aae23201197d7634cbf46d03176544badfc7683518ef",
+      "object": "9335d2a5a66f9bbe0366fae7503a33951ea07fa5",
       "mode": "100644"
     },
     "singularity/templates/figma-mobile/design-inventory.md": {
@@ -750,8 +750,8 @@
       "mode": "100644"
     },
     "singularity/workflow.yml": {
-      "sha256": "bd75c458540359a2e3011cabc8fed0d2cdb4df4ffc5f1c0cbe4247a060f84dd4",
-      "object": "3c024c7c460e91655ccc3bd87dcedbe4ff7a6182",
+      "sha256": "5c742466dc875a9e775b24787234c37f5e79bf9e3d8ceb04dc8017378c8718d5",
+      "object": "2e42d8cc157f31ed32162504bc4c414e35f93747",
       "mode": "100644"
     }
   }
