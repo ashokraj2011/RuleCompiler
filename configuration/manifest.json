@@ -3,15 +3,15 @@
   "layout": "canonical-paths",
   "source": {
     "branch": "sflow/config",
-    "commit": "caff3ec318b4d80ac3dc75964c8f8097180feea7"
+    "commit": "3cbce34ccd7c7c4cdacf2631c1602cc12bd4a693"
   },
   "history": {
-    "branch": "sflow/config-history/caff3ec318b4d80ac3dc75964c8f8097180feea7",
-    "commit": "caff3ec318b4d80ac3dc75964c8f8097180feea7"
+    "branch": "sflow/config-history/3cbce34ccd7c7c4cdacf2631c1602cc12bd4a693",
+    "commit": "3cbce34ccd7c7c4cdacf2631c1602cc12bd4a693"
   },
   "product": {
     "version": "0.9.0",
-    "revision": "91cc3d990a6a153d6dfef58749cbf4805f1ff634"
+    "revision": "e641cff3165b9f6ee32cde76f5191557f5d6edfd"
   },
   "files": {
     ".github/agents/architect.agent.md": "8770e647612b0c805ad583e7615f2ebe7fbb79b93bab2c1f3ad9237da5ff3d69",
@@ -172,7 +172,7 @@
     "singularity/templates/spec-driven/convergence.md": "6901106457eec3b69da7bf60f290529079b7c9dfa4cb59db780ec5406920a832",
     "singularity/templates/spec-driven/plan.md": "303b6402e8c2c925c3507ce1eafe95bb08a69d097509cb6f8a0b5e3bee1db23f",
     "singularity/templates/spec-driven/release.md": "d79502d1b97d92cbd4527e548616a6d0154b8ef4083ed3d792b4f6c9ca9246a3",
-    "singularity/templates/spec-driven/spec.md": "aa4c5c86467f07303011fde5981b819f330528435b7ce141466285cf15afdd94",
+    "singularity/templates/spec-driven/spec.md": "a13092b54c3c4875434c6e44c01b6ba5023ef3081a048a1cf41d5a4b9f13fecf",
     "singularity/templates/starter-packs/skp-team-notes/draft-input.json": "fbc136911e7dfecf14be06091b6d759770fa72c133c39de74710511bfee57410",
     "singularity/templates/starter-packs/skp-team-notes/README.md": "ab3e66d1654df81922a6022c491ac85868cb3b644e0eace77c4f9089c4f599ea",
     "singularity/workflow.yml": "e9f91510d51b0aefb7763b07e917b36cb9732bd52af7478773cf7b90b18ae622"
@@ -969,8 +969,8 @@
       "mode": "100644"
     },
     "singularity/templates/spec-driven/spec.md": {
-      "sha256": "aa4c5c86467f07303011fde5981b819f330528435b7ce141466285cf15afdd94",
-      "object": "8b00011ae84c499089bb45d93d0acc86a097922f",
+      "sha256": "a13092b54c3c4875434c6e44c01b6ba5023ef3081a048a1cf41d5a4b9f13fecf",
+      "object": "c900427c0d771f6ab265774d1558302aa177ecb5",
       "mode": "100644"
     },
     "singularity/templates/starter-packs/skp-team-notes/draft-input.json": {
